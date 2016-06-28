@@ -6,7 +6,7 @@ pod 'AFNetworking'
 pod 'ReactiveCocoa'
 pod 'Typhoon'
 pod 'ViperMcFlurry'
-
+pod 'MWFeedParser'
 
 target :’RSS FeedTests’, :exclusive => true do
     pod 'LLReactiveMatchers', :podspec => 'LLReactiveMatchers.podspec'
