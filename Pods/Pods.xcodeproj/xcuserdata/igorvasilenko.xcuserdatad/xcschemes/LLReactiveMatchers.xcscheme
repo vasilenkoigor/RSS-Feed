@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0E08777F81D3B7C1DE1814B5"
+               BlueprintIdentifier = "247E140F6D144DB86D6F929A656C6B95"
                BuildableName = "LLReactiveMatchers.framework"
                BlueprintName = "LLReactiveMatchers"
                ReferencedContainer = "container:Pods.xcodeproj">
