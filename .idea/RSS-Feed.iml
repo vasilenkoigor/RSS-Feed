@@ -799,18 +799,21 @@
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/RSS_FeedTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Base.lproj/Feed.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/main.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Resources/Images/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/Protocols/NetworkClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/ApplicationLayer/AppDelegate/VASAppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/ApplicationLayer/AppDelegate/VASAppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Extensions/UITableView+VASCellNibRegistration/UITableView+VASCellNibRegistration.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Extensions/UITableView+VASCellNibRegistration/UITableView+VASCellNibRegistration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Resources/Images/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Base.lproj/Feed.storyboard" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
