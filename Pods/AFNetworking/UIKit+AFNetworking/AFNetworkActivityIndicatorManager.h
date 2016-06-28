@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  `AFNetworkActivityIndicatorManager` manages the state of the network activity indicator in the status bar. When enabled, it will listen for notifications indicating that a session task has started or finished, and start or stop animating the indicator accordingly. The number of active requests is incremented and decremented much like a stack or a semaphore, and the activity indicator will animate so long as that number is greater than zero.
 
- You should enable the shared instance of `AFNetworkActivityIndicatorManager` when your application finishes launching. In `AppDelegate application:didFinishLaunchingWithOptions:` you can do so with the following code:
+ You should enable the shared instance of `AFNetworkActivityIndicatorManager` when your application finishes launching. In `VASAppDelegate application:didFinishLaunchingWithOptions:` you can do so with the following code:
 
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
 
@@ -58,7 +58,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Use view controller based solutions where appropri
 
 /**
  A time interval indicating the minimum duration of networking activity that should occur before the activity indicator is displayed. The default value 1 second. If the network activity indicator should be displayed immediately when network activity occurs, this value should be set to 0 seconds.
- 
+
  Apple's HIG describes the following:
 
  > Display the network activity indicator to provide feedback when your app accesses the network for more than a couple of seconds. If the operation finishes sooner than that, you don’t have to show the network activity indicator, because the indicator is likely to disappear before users notice its presence.
