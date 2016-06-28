@@ -5,5 +5,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class MWFeedItem;
+
+typedef void (^NetworkClientCompletionBlock)(MWFeedItem *item, NSError *error);
+
 @protocol NetworkClient <NSObject>
+
+- (void)sendRequestWithCompletionBlock:(NetworkClientCompletionBlock)completionBlock;
+
 @end

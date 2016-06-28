@@ -3,11 +3,11 @@
 // Copyright (c) 2016 Igor Vasilenko. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "NetworkClient.h"
 
 @class MWFeedParser;
 
-@interface CommonNetworkClient : NSObject
+@interface CommonNetworkClient : NSObject <NetworkClient>
 
 @property (strong, nonatomic, readonly) MWFeedParser *parser;
 
