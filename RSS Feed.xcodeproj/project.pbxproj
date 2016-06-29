@@ -11,11 +11,13 @@
 		74AD30847B9227A2610EC74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD3AD2F69EADBC1E574CD5 /* Assets.xcassets */; };
 		74AD3098B8F9D8780DE08D9D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD30812EF6D02F27E4B116 /* Feed.storyboard */; };
 		74AD32A7442CD9DDB3935728 /* VASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD38C8394A38B3A524E741 /* VASAppDelegate.m */; };
+		74AD37191F42309474472EC8 /* NetwokClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3C514FF169F66C50F651 /* NetwokClientTest.m */; };
 		74AD38A0E7DF033AC2618078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD3F0A4173D41E13C11CD2 /* LaunchScreen.storyboard */; };
 		74AD3A792AD9811AA814E780 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3C42770D18773D372293 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3DAE71EA33FA63C5508A /* UITableView+VASCellNibRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F7578FB6262547EFEE9 /* UITableView+VASCellNibRegistration.m */; };
 		74AD3F39E31ADB1022D22EA8 /* CommonNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */; };
+		74AD3FB421BA00685D7CF8AE /* NetworkClientsAssemblyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */; };
 		A727DE8D7EEC7856220F2A4A /* Pods_RSS_FeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFA989AA2A03EDFE27B8854 /* Pods_RSS_FeedTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B7D10A3A1D226F8300AF06D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D10A391D226F8300AF06D6 /* main.m */; };
 		B7D10A531D226F8300AF06D6 /* RSS_FeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D10A521D226F8300AF06D6 /* RSS_FeedTests.m */; };
@@ -45,7 +47,9 @@
 		74AD38C8394A38B3A524E741 /* VASAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VASAppDelegate.m; sourceTree = "<group>"; };
 		74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssembly.m; sourceTree = "<group>"; };
 		74AD3AD2F69EADBC1E574CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssemblyTest.m; sourceTree = "<group>"; };
 		74AD3BCC5C4742600C50B2D7 /* UITableView+VASCellNibRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+VASCellNibRegistration.h"; sourceTree = "<group>"; };
+		74AD3C514FF169F66C50F651 /* NetwokClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetwokClientTest.m; sourceTree = "<group>"; };
 		74AD3CE43F46A53F01BCE51F /* NetworkClientsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsAssembly.h; sourceTree = "<group>"; };
 		74AD3D2497602CE5CE9D38D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "RSS Feed/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
 		74AD3D6C63BA6A7C2D5050F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -211,14 +215,6 @@
 			path = NetworkClients;
 			sourceTree = "<group>";
 		};
-		74AD37EB680A90807B5BF272 /* AssembliesTests */ = {
-			isa = PBXGroup;
-			children = (
-				74AD3D420E7ABB0B852E4030 /* NetworkClientsAssemblyTests */,
-			);
-			path = AssembliesTests;
-			sourceTree = "<group>";
-		};
 		74AD3884049C297C42BA6268 /* ConcreteServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +244,15 @@
 				74AD30812EF6D02F27E4B116 /* Feed.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		74AD3AE5350225089647CFD6 /* CoreLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AD3D7DCB4F3F110CA295E5 /* NetworkClientsAssemblyTests */,
+				74AD3D96F86FDAAF9D5DFCEE /* CoreComponentsTests */,
+			);
+			path = CoreLayerTests;
 			sourceTree = "<group>";
 		};
 		74AD3B0C2CFD30BFC34A64C9 /* PresentationLayer */ = {
@@ -330,19 +335,28 @@
 			path = ConcreteClasses;
 			sourceTree = "<group>";
 		};
-		74AD3D420E7ABB0B852E4030 /* NetworkClientsAssemblyTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetworkClientsAssemblyTests;
-			sourceTree = "<group>";
-		};
 		74AD3D7367BB81AF017EC755 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				74AD3884049C297C42BA6268 /* ConcreteServices */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		74AD3D7DCB4F3F110CA295E5 /* NetworkClientsAssemblyTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */,
+			);
+			path = NetworkClientsAssemblyTests;
+			sourceTree = "<group>";
+		};
+		74AD3D96F86FDAAF9D5DFCEE /* CoreComponentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AD3DE983741D13B749C8F9 /* NetworkClientsTests */,
+			);
+			path = CoreComponentsTests;
 			sourceTree = "<group>";
 		};
 		74AD3DAA678D6E9C86C1623A /* NetworkClientsFactory */ = {
@@ -353,6 +367,14 @@
 				74AD30C1F35B0A0E1D0F3A0F /* NetworkClientsFactory.h */,
 			);
 			path = NetworkClientsFactory;
+			sourceTree = "<group>";
+		};
+		74AD3DE983741D13B749C8F9 /* NetworkClientsTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AD3C514FF169F66C50F651 /* NetwokClientTest.m */,
+			);
+			path = NetworkClientsTests;
 			sourceTree = "<group>";
 		};
 		74AD3F767CBD9E15003E8A19 /* Assemblies */ = {
@@ -416,7 +438,7 @@
 			children = (
 				B7D10A521D226F8300AF06D6 /* RSS_FeedTests.m */,
 				B7D10A541D226F8300AF06D6 /* Info.plist */,
-				74AD37EB680A90807B5BF272 /* AssembliesTests */,
+				74AD3AE5350225089647CFD6 /* CoreLayerTests */,
 			);
 			path = "RSS FeedTests";
 			sourceTree = "<group>";
@@ -644,6 +666,8 @@
 			files = (
 				B7D10A531D226F8300AF06D6 /* RSS_FeedTests.m in Sources */,
 				74AD3A792AD9811AA814E780 /* NetworkClientsAssembly.m in Sources */,
+				74AD3FB421BA00685D7CF8AE /* NetworkClientsAssemblyTest.m in Sources */,
+				74AD37191F42309474472EC8 /* NetwokClientTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,6 +788,7 @@
 			baseConfigurationReference = 2A0BA0C38F40A7E241AB5E63 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "RSS Feed/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IgorVasilenko.RSS-Feed";
@@ -776,6 +801,7 @@
 			baseConfigurationReference = 120301F6AC4CB602122D11E1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "RSS Feed/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IgorVasilenko.RSS-Feed";
@@ -788,6 +814,7 @@
 			baseConfigurationReference = 6FCC7E13E10F8486D047A852 /* Pods-RSS FeedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "RSS FeedTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IgorVasilenko.RSS-FeedTests";
@@ -801,6 +828,7 @@
 			baseConfigurationReference = 89C45FF9C5922EEFDCBC4D97 /* Pods-RSS FeedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "RSS FeedTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IgorVasilenko.RSS-FeedTests";
