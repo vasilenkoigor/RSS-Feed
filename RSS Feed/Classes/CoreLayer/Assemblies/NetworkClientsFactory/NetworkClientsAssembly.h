@@ -4,7 +4,8 @@
 //
 
 #import <Typhoon/TyphoonAssembly.h>
+#import "NetworkClientsFactory.h"
 
-@interface NetworkClientsAssembly : TyphoonAssembly
+@interface NetworkClientsAssembly : TyphoonAssembly <NetworkClientsFactory>
 
 @end
