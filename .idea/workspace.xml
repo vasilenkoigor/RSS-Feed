@@ -2,12 +2,378 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db712ed4-f69a-4aa3-8d9a-c61a0fc86c92" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSS FeedTests/CoreLayerTests/NetworkClientsAssemblyTests/NetworkClientsAssemblyTest.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPDefines.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPExpect.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPExpect.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPMatcher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPUnsupportedObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPUnsupportedObject.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Expecta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaObject.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaSupport.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/NSObject+Expecta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/NSValue+Expecta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/NSValue+Expecta.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Expecta/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPBlockDefinedMatcher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPDefines.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPDoubleTuple.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPExpect.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPFloatTuple.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatcher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatcherHelpers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beCloseTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beFalsy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beGreaterThan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beGreaterThanOrEqualTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beIdenticalTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beInTheRangeOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beInstanceOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beKindOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beLessThan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beLessThanOrEqualTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beNil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beSubclassOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beSupersetOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beTruthy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+beginWith.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+conformTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+contain.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+endWith.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+equal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+haveCountOf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+match.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+postNotification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+raise.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+raiseWithReason.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers+respondTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPMatchers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/EXPUnsupportedObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/Expecta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/ExpectaObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/ExpectaSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/NSObject+Expecta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Expecta/NSValue+Expecta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPExpect+LLReactiveMatchersExtensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+beSubscribedTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+complete.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+error.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+finish.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+matchError.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+matchValue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+matchValues.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+sendError.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+sendEvents.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+sendValues.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/EXPMatchers+sendValuesWithCount.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/LLReactiveMatchers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/LLReactiveMatchersHelpers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/LLReactiveMatchersImports.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/LLReactiveMatchersMessageBuilder.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/LLSignalTestRecorder.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/LLReactiveMatchers/RACSignal+LLSubscriptionCounting.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACObjCRuntime.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/EXTKeyPathCoding.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/EXTRuntimeExtensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/EXTScope.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSArray+RACSequenceAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSData+RACSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSDictionary+RACSequenceAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSEnumerator+RACSequenceAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSFileHandle+RACSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSIndexSet+RACSequenceAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSInvocation+RACTypeParsing.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSNotificationCenter+RACSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSObject+RACDeallocating.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSObject+RACDescription.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSObject+RACKVOWrapper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSObject+RACLifting.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSObject+RACPropertySubscribing.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSObject+RACSelectorSignal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSSet+RACSequenceAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSString+RACKeyPathUtilities.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSString+RACSequenceAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSString+RACSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSURLConnection+RACSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/NSUserDefaults+RACSupport.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACArraySequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACBehaviorSubject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACBlockTrampoline.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACChannel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACCommand.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACCompoundDisposable.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACDelegateProxy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACDisposable.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACDynamicPropertySuperclass.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACDynamicSequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACDynamicSignal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACEagerSequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACEmptySequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACEmptySignal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACErrorSignal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACEvent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACGroupedSignal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACImmediateScheduler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACIndexSetSequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACKVOChannel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACKVOProxy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACKVOTrampoline.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACMulticastConnection+Private.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACMulticastConnection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACPassthroughSubscriber.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACQueueScheduler+Subclass.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACQueueScheduler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACReplaySubject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACReturnSignal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACScheduler+Private.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACScheduler+Subclass.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACScheduler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACScopedDisposable.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSerialDisposable.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSignal+Operations.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSignal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSignalSequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACStream+Private.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACStream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACStringSequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSubject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSubscriber+Private.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSubscriber.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACSubscriptionScheduler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACTargetQueueScheduler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACTestScheduler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACTuple.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACTupleSequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACUnarySequence.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACUnit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/RACValueTransformer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa-Bridging-Header.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa/metamacros.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTCallSite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTCompiledExample.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTExample.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTExampleGroup.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTExcludeGlobalBeforeAfterEach.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTGlobalBeforeAfterEach.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTSharedExampleGroups.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTSpec.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SPTTestSuite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/Specta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SpectaDSL.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SpectaTypes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/SpectaUtility.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/XCTest+Private.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Specta/XCTestCase+Specta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Helpers/EXPExpect+LLReactiveMatchersExtensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Helpers/EXPExpect+LLReactiveMatchersExtensions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Helpers/LLSignalTestRecorder.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Helpers/LLSignalTestRecorder.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Helpers/RACSignal+LLSubscriptionCounting.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Helpers/RACSignal+LLSubscriptionCounting.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/LLReactiveMatchers-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/LLReactiveMatchers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/LLReactiveMatchersHelpers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/LLReactiveMatchersHelpers.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/LLReactiveMatchersImports.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/LLReactiveMatchersMessageBuilder.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/LLReactiveMatchersMessageBuilder.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+beSubscribedTo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+beSubscribedTo.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+complete.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+complete.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+error.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+error.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+finish.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+finish.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+matchError.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+matchError.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+matchValue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+matchValue.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+matchValues.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+matchValues.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendError.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendError.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendEvents.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendEvents.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendValues.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendValues.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendValuesWithCount.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/LLReactiveMatchers/Matchers/EXPMatchers+sendValuesWithCount.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/LLReactiveMatchers/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/LLReactiveMatchers.podspec.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Expecta.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/LLReactiveMatchers.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Specta.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACObjCRuntime.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACObjCRuntime.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExample.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExample.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTGlobalBeforeAfterEach.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSpec.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSpec.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/Specta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaTypes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/XCTest+Private.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LLReactiveMatchers/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LLReactiveMatchers/LLReactiveMatchers-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LLReactiveMatchers/LLReactiveMatchers-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LLReactiveMatchers/LLReactiveMatchers-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LLReactiveMatchers/LLReactiveMatchers-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LLReactiveMatchers/LLReactiveMatchers.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LLReactiveMatchers/LLReactiveMatchers.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed.xcworkspace/xcuserdata/igorvasilenko.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/RSS Feed.xcworkspace/xcuserdata/igorvasilenko.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RSS-Feed.iml" afterPath="$PROJECT_DIR$/.idea/RSS-Feed.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/MWFeedParser.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/MWFeedParser.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/OCMock.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/OCMock.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Pods-RSS FeedTests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Pods-RSS FeedTests.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/README.md" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACSelectorSignal.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACSelectorSignal.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposable.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposable.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSerialDisposable.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSerialDisposable.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubject.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubject.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIButton+RACCommandSupport.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIButton+RACCommandSupport.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupport.m" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupport.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIRefreshControl+RACCommandSupport.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIRefreshControl+RACCommandSupport.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Action.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Action.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Atomic.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Atomic.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Disposable.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Disposable.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Flatten.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Flatten.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/FoundationExtensions.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/FoundationExtensions.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/ObjectiveCBridging.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/ObjectiveCBridging.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Observer.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Observer.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Property.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Property.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Scheduler.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Scheduler.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Signal.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Signal.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/SignalProducer.swift" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/SignalProducer.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-frameworks.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/Info.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-umbrella.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-umbrella.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.modulemap" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.modulemap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/RSS Feed.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.m" afterPath="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h" afterPath="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.m" afterPath="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Info.plist" afterPath="$PROJECT_DIR$/RSS Feed/Info.plist" />
     </list>
     <ignored path="RSS-Feed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,17 +401,21 @@
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#108#145#0" expanded="true" />
+                <marker date="1467235652000" expanded="true" signature="278:1020" ph="..." />
+                <marker date="1467235652000" expanded="true" signature="340:669" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkClientsFactory.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NetworkClientsFactory.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <marker date="1467235652000" expanded="true" signature="200:275" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +423,8 @@
       <file leaf-file-name="CommonNetworkClient.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="97">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="e#108#145#0" expanded="true" />
               </folding>
@@ -85,18 +455,8 @@
       <file leaf-file-name="MWFeedParser.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pods/MWFeedParser/Classes/MWFeedParser.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="375">
               <caret line="131" column="21" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MWFeedParser.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/MWFeedParser/Classes/MWFeedParser.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12285">
-              <caret line="819" column="8" selection-start-line="819" selection-start-column="8" selection-end-line="819" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -105,17 +465,7 @@
       <file leaf-file-name="CommonNetworkClient.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetworkClient.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/Protocols/NetworkClient.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="210">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
@@ -125,9 +475,31 @@
       <file leaf-file-name="NetworkClientsAssembly.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkClientsAssemblyTest.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RSS FeedTests/CoreLayerTests/NetworkClientsAssemblyTests/NetworkClientsAssemblyTest.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetwokClientTest.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RSS FeedTests/CoreLayerTests/CoreComponentsTests/NetworkClientsTests/NetwokClientTest.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#149#174#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,6 +522,9 @@
         <option value="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.m" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.m" />
+        <option value="$PROJECT_DIR$/RSS FeedTests/AssembliesTests/CoreLayerTests/NetworkClientsAssemblyTests/NetworkClientsAssemblyTest.m" />
+        <option value="$PROJECT_DIR$/RSS FeedTests/CoreLayerTests/NetworkClientsAssemblyTests/NetworkClientsAssemblyTest.m" />
+        <option value="$PROJECT_DIR$/RSS FeedTests/CoreLayerTests/CoreComponentsTests/NetworkClientsTests/NetwokClientTest.m" />
       </list>
     </option>
   </component>
@@ -219,7 +594,37 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AssembliesTests" />
+              <option name="myItemId" value="CoreLayerTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NetworkClientsAssemblyTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS Feed" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS FeedTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreLayerTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreComponentsTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NetworkClientsTests" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,7 +758,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pods" />
+              <option name="myItemId" value="Frameworks" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,33 +772,11 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pods" />
+              <option name="myItemId" value="Frameworks" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MWFeedParser" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pods" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pods" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MWFeedParser" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FeedParser" />
+              <option name="myItemId" value="iOS" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,20 +806,6 @@
       <method />
     </configuration>
     <configuration default="false" name="AFNetworking" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="AFNetworking" CONFIG_NAME="Debug" SCHEME_NAME="AFNetworking" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
-      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-      </EXTENSION>
-      <method />
-    </configuration>
-    <configuration default="false" name="Expecta" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Expecta" CONFIG_NAME="Debug" SCHEME_NAME="Expecta" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
-      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-      </EXTENSION>
-      <method />
-    </configuration>
-    <configuration default="false" name="LLReactiveMatchers" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="LLReactiveMatchers" CONFIG_NAME="Debug" SCHEME_NAME="LLReactiveMatchers" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -485,13 +854,6 @@
       </EXTENSION>
       <method />
     </configuration>
-    <configuration default="false" name="Specta" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Specta" CONFIG_NAME="Debug" SCHEME_NAME="Specta" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
-      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-      </EXTENSION>
-      <method />
-    </configuration>
     <configuration default="false" name="Typhoon" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Typhoon" CONFIG_NAME="Debug" SCHEME_NAME="Typhoon" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
@@ -513,21 +875,18 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="14">
+    <list size="11">
       <item index="0" class="java.lang.String" itemvalue="Application.RSS Feed" />
       <item index="1" class="java.lang.String" itemvalue="Application.AFNetworking" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Expecta" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LLReactiveMatchers" />
-      <item index="4" class="java.lang.String" itemvalue="Application.OCMock" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Pods-RSS FeedTests" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Pods" />
-      <item index="7" class="java.lang.String" itemvalue="Application.RamblerTyphoonUtils" />
-      <item index="8" class="java.lang.String" itemvalue="Application.ReactiveCocoa" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Result" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Specta" />
-      <item index="11" class="java.lang.String" itemvalue="Application.Typhoon" />
-      <item index="12" class="java.lang.String" itemvalue="Application.ViperMcFlurry" />
-      <item index="13" class="java.lang.String" itemvalue="Application.MWFeedParser" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OCMock" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Pods-RSS FeedTests" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Pods" />
+      <item index="5" class="java.lang.String" itemvalue="Application.RamblerTyphoonUtils" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ReactiveCocoa" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Result" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Typhoon" />
+      <item index="9" class="java.lang.String" itemvalue="Application.ViperMcFlurry" />
+      <item index="10" class="java.lang.String" itemvalue="Application.MWFeedParser" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -545,10 +904,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -597,6 +956,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#108#145#0" expanded="true" />
+            <marker date="1467235652000" expanded="true" signature="278:1020" ph="..." />
+            <marker date="1467235652000" expanded="true" signature="340:669" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -605,7 +966,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1467235652000" expanded="true" signature="200:275" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pods/MWFeedParser/Classes/MWFeedParser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="375">
           <caret line="131" column="21" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="21" />
           <folding />
         </state>
@@ -796,27 +1159,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="97">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="e#108#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.h">
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <marker date="1467235652000" expanded="true" signature="200:275" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -826,15 +1191,35 @@
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#108#145#0" expanded="true" />
+            <marker date="1467235652000" expanded="true" signature="278:1020" ph="..." />
+            <marker date="1467235652000" expanded="true" signature="340:669" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h">
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSS FeedTests/CoreLayerTests/NetworkClientsAssemblyTests/NetworkClientsAssemblyTest.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSS FeedTests/CoreLayerTests/CoreComponentsTests/NetworkClientsTests/NetwokClientTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#149#174#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

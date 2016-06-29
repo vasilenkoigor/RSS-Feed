@@ -14,10 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - Expecta (1.0.5)
-  - LLReactiveMatchers (0.0.1):
-    - Expecta
-    - Specta
   - MWFeedParser (1.0.1):
     - MWFeedParser/FeedParser (= 1.0.1)
     - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
@@ -29,19 +25,9 @@ PODS:
   - MWFeedParser/NSString+HTML (1.0.1)
   - OCMock (3.3)
   - RamblerTyphoonUtils/AssemblyTesting (1.3.1)
-  - ReactiveCocoa (4.1.0):
-    - ReactiveCocoa/UI (= 4.1.0)
-    - Result (~> 2.0)
-  - ReactiveCocoa/Core (4.1.0):
-    - ReactiveCocoa/no-arc
-    - Result (~> 2.0)
-  - ReactiveCocoa/no-arc (4.1.0):
-    - Result (~> 2.0)
-  - ReactiveCocoa/UI (4.1.0):
-    - ReactiveCocoa/Core
+  - ReactiveCocoa (4.2.1):
     - Result (~> 2.0)
   - Result (2.1.1)
-  - Specta (1.0.5)
   - Typhoon (3.4.8):
     - Typhoon/no-arc (= 3.4.8)
   - Typhoon/no-arc (3.4.8)
@@ -54,7 +40,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - LLReactiveMatchers (from `LLReactiveMatchers.podspec`)
   - MWFeedParser
   - OCMock
   - RamblerTyphoonUtils/AssemblyTesting
@@ -62,20 +47,13 @@ DEPENDENCIES:
   - Typhoon
   - ViperMcFlurry
 
-EXTERNAL SOURCES:
-  LLReactiveMatchers:
-    :podspec: LLReactiveMatchers.podspec
-
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  LLReactiveMatchers: a8e3124deb443e5551adca043ec7a5efd43844a5
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
   OCMock: d68685bde31f69cb61d518dcb39269080c78b5ed
   RamblerTyphoonUtils: 7c4c7a7e6fa569a38512a687f676a834de2bd311
-  ReactiveCocoa: d70004d7a366a7b8e87e60ce2347182c77701949
+  ReactiveCocoa: 5a42745f11ea236f405bb9ce5e97c5e3b23562dd
   Result: 822c879f145943320cc80a9a8372378e3d699fe4
-  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   Typhoon: f2390ad976bd1acaf5680b837781720faf5ff909
   ViperMcFlurry: dc0aed190c3485fc6c95a50375d2e9812c9adb7e
 

@@ -52,16 +52,10 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods-RSS FeedTests/Expecta.framework'
-  install_framework 'Pods-RSS FeedTests/LLReactiveMatchers.framework'
   install_framework 'Pods-RSS FeedTests/OCMock.framework'
   install_framework 'Pods-RSS FeedTests/RamblerTyphoonUtils.framework'
-  install_framework 'Pods-RSS FeedTests/Specta.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods-RSS FeedTests/Expecta.framework'
-  install_framework 'Pods-RSS FeedTests/LLReactiveMatchers.framework'
   install_framework 'Pods-RSS FeedTests/OCMock.framework'
   install_framework 'Pods-RSS FeedTests/RamblerTyphoonUtils.framework'
-  install_framework 'Pods-RSS FeedTests/Specta.framework'
 fi

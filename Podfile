@@ -9,7 +9,6 @@ pod 'ViperMcFlurry'
 pod 'MWFeedParser'
 
 target :’RSS FeedTests’, :exclusive => true do
-    pod 'LLReactiveMatchers', :podspec => 'LLReactiveMatchers.podspec'
     pod 'OCMock'
     pod 'RamblerTyphoonUtils/AssemblyTesting'
 end
