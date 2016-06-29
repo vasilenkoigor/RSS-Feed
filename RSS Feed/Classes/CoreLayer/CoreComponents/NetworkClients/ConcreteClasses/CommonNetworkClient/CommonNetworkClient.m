@@ -6,9 +6,10 @@
 #import <MWFeedParser/MWFeedParser.h>
 #import "CommonNetworkClient.h"
 
-@interface CommonNetworkClient ()
+@interface CommonNetworkClient () <MWFeedParserDelegate>
 
 @property (strong, nonatomic, readwrite) MWFeedParser *parser;
+@property (copy, nonatomic) NetworkClientCompletionBlock completionBlock;
 
 @end
 
@@ -19,13 +20,31 @@
     self = [super init];
     if (self) {
         self.parser = parser;
+        self.parser.delegate = self;
     }
     return self;
 }
 
 - (void)sendRequestWithCompletionBlock:(NetworkClientCompletionBlock)completionBlock
 {
+    self.completionBlock = completionBlock;
+    [self.parser parse];
+}
 
+#pragma mark - MWFeedParserDelegate
+
+- (void)feedParser:(MWFeedParser *)parser didParseFeedItem:(MWFeedItem *)item
+{
+    if (self.completionBlock) {
+        self.completionBlock(item, nil);
+    }
+}
+
+- (void)feedParser:(MWFeedParser *)parser didFailWithError:(NSError *)error
+{
+    if (self.completionBlock) {
+        self.completionBlock(nil, error);
+    }
 }
 
 @end

@@ -5,5 +5,10 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol NetworkClient;
+
 @protocol NetworkClientsFactory <NSObject>
+
+- (id <NetworkClient>)networkClientWithURL:(NSURL *)baseURL;
+
 @end

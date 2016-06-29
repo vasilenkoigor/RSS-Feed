@@ -211,6 +211,14 @@
 			path = NetworkClients;
 			sourceTree = "<group>";
 		};
+		74AD37EB680A90807B5BF272 /* AssembliesTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AD3D420E7ABB0B852E4030 /* NetworkClientsAssemblyTests */,
+			);
+			path = AssembliesTests;
+			sourceTree = "<group>";
+		};
 		74AD3884049C297C42BA6268 /* ConcreteServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +330,13 @@
 			path = ConcreteClasses;
 			sourceTree = "<group>";
 		};
+		74AD3D420E7ABB0B852E4030 /* NetworkClientsAssemblyTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkClientsAssemblyTests;
+			sourceTree = "<group>";
+		};
 		74AD3D7367BB81AF017EC755 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +416,7 @@
 			children = (
 				B7D10A521D226F8300AF06D6 /* RSS_FeedTests.m */,
 				B7D10A541D226F8300AF06D6 /* Info.plist */,
+				74AD37EB680A90807B5BF272 /* AssembliesTests */,
 			);
 			path = "RSS FeedTests";
 			sourceTree = "<group>";
