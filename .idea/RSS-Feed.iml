@@ -639,11 +639,11 @@
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/BusinessLogicLayerTests/ConcreteServicesTests/FeedServiceTests/FeedServiceTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/BusinessLogicLayerTests/ServiceComponentsAssemblyTest/ServiceComponentsAssemblyTest.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/Presenter/FeedModulePresenterTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/Assembly/FeedModuleAssembly_Testable.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/Assembly/FeedModuleAssemblyTests.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/Router/FeedModuleRouterTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/Presenter/FeedModulePresenterTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/View/FeedModuleViewControllerTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/Router/FeedModuleRouterTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/Interactor/FeedModuleInteractorTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StringConstants.h" isTestSource="false" />
@@ -674,8 +674,6 @@
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/BusinessLogicLayer/Services/ConcreteServices/FeedService/FeedServiceImpl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Models/ItemInfoModel/ItemInfoModel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Models/ItemInfoModel/ItemInfoModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Extensions/UITableView+VASCellNibRegistration/UITableView+VASCellNibRegistration.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Extensions/UITableView+VASCellNibRegistration/UITableView+VASCellNibRegistration.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/ApplicationLayer/AppDelegate/VASAppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/ApplicationLayer/AppDelegate/VASAppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsAssembly.h" isTestSource="false" />
@@ -684,6 +682,8 @@
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/Protocols/NetworkClient.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Extensions/UITableView+VASCellNibRegistration/UITableView+VASCellNibRegistration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/Extensions/UITableView+VASCellNibRegistration/UITableView+VASCellNibRegistration.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Resources/Images/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Info.plist" isTestSource="false" />

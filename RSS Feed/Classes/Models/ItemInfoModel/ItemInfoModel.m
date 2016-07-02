@@ -4,6 +4,7 @@
 //
 
 #import <MWFeedParser/MWFeedItem.h>
+#import <OCMock/OCMArg.h>
 #import "ItemInfoModel.h"
 
 @implementation ItemInfoModel
@@ -16,8 +17,14 @@
         self.date = feedItem.date;
         self.summary = feedItem.summary;
 
-        NSString *urlString = [feedItem.enclosures firstObject];
-        self.itemImageUrl = [[NSURL alloc] initWithString:urlString];
+        if (feedItem.enclosures.count) {
+            id enclosure = [feedItem.enclosures firstObject];
+            if ([enclosure isKindOfClass:[NSDictionary class]]) {
+                NSDictionary *enclosureDictionary = enclosure;
+                NSString *urlString = enclosureDictionary[@"url"];
+                self.itemImageUrl = [[NSURL alloc] initWithString:urlString];
+            }
+        }
     }
     return self;
 }

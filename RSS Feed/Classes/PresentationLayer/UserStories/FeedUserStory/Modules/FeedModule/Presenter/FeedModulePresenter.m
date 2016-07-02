@@ -26,8 +26,14 @@
 - (void)didTriggerViewReadyEvent
 {
 	[self.view setupInitialState];
+	[self.interactor loadRssFeedFromAllServicesList];
 }
 
 #pragma mark - Методы FeedModuleInteractorOutput
+
+- (void)didLoadRssFeed:(NSArray <ItemInfoModel *> *)rssFeedArray error:(NSError *)error
+{
+	NSLog(@"");
+}
 
 @end

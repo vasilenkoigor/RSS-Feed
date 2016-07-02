@@ -250,13 +250,6 @@
 			path = UserStories;
 			sourceTree = "<group>";
 		};
-		74AD320C2B073B6FF62E9814 /* CellObjects */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CellObjects;
-			sourceTree = "<group>";
-		};
 		74AD320E8352B51323302113 /* BusinessLogicLayerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -536,8 +529,8 @@
 		74AD3CC7A787F55C6E7096A6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				74AD320C2B073B6FF62E9814 /* CellObjects */,
 				74AD3B316060AFAA59BA4DA2 /* Cells */,
+				74AD3E3DB50A2C440DCD473E /* CellObjects */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -599,6 +592,13 @@
 				74AD3C514FF169F66C50F651 /* NetwokClientTest.m */,
 			);
 			path = NetworkClientsTests;
+			sourceTree = "<group>";
+		};
+		74AD3E3DB50A2C440DCD473E /* CellObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CellObjects;
 			sourceTree = "<group>";
 		};
 		74AD3F767CBD9E15003E8A19 /* Assemblies */ = {

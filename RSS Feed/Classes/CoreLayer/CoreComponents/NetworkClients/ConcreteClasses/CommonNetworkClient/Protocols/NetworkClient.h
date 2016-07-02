@@ -7,7 +7,7 @@
 
 @class MWFeedItem;
 
-typedef void (^NetworkClientCompletionBlock)(MWFeedItem *item, NSError *error);
+typedef void (^NetworkClientCompletionBlock)(NSArray <MWFeedItem *> *result, NSError *error);
 
 @protocol NetworkClient <NSObject>
 

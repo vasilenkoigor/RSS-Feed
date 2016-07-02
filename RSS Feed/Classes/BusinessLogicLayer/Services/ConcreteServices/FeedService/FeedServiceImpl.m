@@ -27,12 +27,12 @@
 - (RACSignal *)rac_requestRssFeed
 {
     return [RACSignal createSignal:^RACDisposable *(id <RACSubscriber> subscriber) {
-        [self.networkClient sendRequestWithCompletionBlock:^(MWFeedItem *item, NSError *error) {
+        [self.networkClient sendRequestWithCompletionBlock:^(NSArray <MWFeedItem *> *result, NSError *error) {
             if (error) {
                 [subscriber sendError:error];
             }
-            if (item) {
-                [subscriber sendNext:item];
+            if (result) {
+                [subscriber sendNext:result];
                 [subscriber sendCompleted];
             }
         }];

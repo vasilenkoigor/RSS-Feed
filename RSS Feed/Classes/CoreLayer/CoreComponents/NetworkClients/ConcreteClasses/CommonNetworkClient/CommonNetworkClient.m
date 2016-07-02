@@ -10,6 +10,7 @@
 
 @property (strong, nonatomic, readwrite) MWFeedParser *parser;
 @property (copy, nonatomic) NetworkClientCompletionBlock completionBlock;
+@property (strong, nonatomic) NSMutableArray *resultMutableArray;
 
 @end
 
@@ -20,7 +21,10 @@
     self = [super init];
     if (self) {
         self.parser = parser;
+        self.parser.connectionType = ConnectionTypeAsynchronously;
+        self.parser.feedParseType = ParseTypeFull;
         self.parser.delegate = self;
+        self.resultMutableArray = [NSMutableArray array];
     }
     return self;
 }
@@ -33,17 +37,27 @@
 
 #pragma mark - MWFeedParserDelegate
 
+- (void)feedParserDidStart:(MWFeedParser *)parser
+{
+    [self.resultMutableArray removeAllObjects];
+}
+
 - (void)feedParser:(MWFeedParser *)parser didParseFeedItem:(MWFeedItem *)item
 {
-    if (self.completionBlock) {
-        self.completionBlock(item, nil);
-    }
+    [self.resultMutableArray addObject:item];
 }
 
 - (void)feedParser:(MWFeedParser *)parser didFailWithError:(NSError *)error
 {
     if (self.completionBlock) {
         self.completionBlock(nil, error);
+    }
+}
+
+- (void)feedParserDidFinish:(MWFeedParser *)parser
+{
+    if (self.completionBlock) {
+        self.completionBlock([self.resultMutableArray copy], nil);
     }
 }
 

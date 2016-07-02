@@ -42,7 +42,7 @@
                         }] map:^id(NSArray <MWFeedItem *> *feed) {
         /// Map by date
         return [feed sortedArrayUsingComparator:^NSComparisonResult(MWFeedItem *obj1, MWFeedItem *obj2) {
-            return [obj1.date compare:obj2.date];
+            return [obj2.date compare:obj1.date];
         }];
     }] subscribeNext:^(NSArray <ItemInfoModel *> *result) {
         // Success
