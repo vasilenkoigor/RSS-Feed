@@ -5,5 +5,11 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol FeedService;
+
 @protocol ServiceComponents <NSObject>
+
+- (id <FeedService>)gazetaFeedService;
+- (id <FeedService>)lentaFeedService;
+
 @end

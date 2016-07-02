@@ -11,5 +11,4 @@ pod 'MWFeedParser'
 target :’RSS FeedTests’, :exclusive => true do
     pod 'OCMock'
     pod 'RamblerTyphoonUtils/AssemblyTesting'
-    pod 'LLReactiveMatchers'
 end

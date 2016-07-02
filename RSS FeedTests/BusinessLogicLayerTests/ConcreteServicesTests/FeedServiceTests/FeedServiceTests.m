@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Igor Vasilenko. All rights reserved.
 //
 
-#import <XCTest/XCTestCase.h>
+#import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
 #import <ReactiveCocoa/RACSignal.h>
 #import "FeedService.h"
@@ -42,7 +42,6 @@
 {
     // when
     [[self.feedService rac_requestRssFeed] subscribeNext:^(id x) {
-
     }];
 
     // then

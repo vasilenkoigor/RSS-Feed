@@ -10,9 +10,11 @@
 		6CF7775BF0B1BBD5BD085D4B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB0B0643A073B9758E7E390 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		74AD30847B9227A2610EC74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD3AD2F69EADBC1E574CD5 /* Assets.xcassets */; };
 		74AD3098B8F9D8780DE08D9D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD30812EF6D02F27E4B116 /* Feed.storyboard */; };
+		74AD31999D4AD057ED2D328F /* ServiceComponentsAssemblyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */; };
 		74AD32A7442CD9DDB3935728 /* VASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD38C8394A38B3A524E741 /* VASAppDelegate.m */; };
 		74AD37191F42309474472EC8 /* NetwokClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3C514FF169F66C50F651 /* NetwokClientTest.m */; };
 		74AD38A0E7DF033AC2618078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD3F0A4173D41E13C11CD2 /* LaunchScreen.storyboard */; };
+		74AD38E211AA13C1C7B207CD /* ServiceComponentsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */; };
 		74AD3A792AD9811AA814E780 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3AF5EDFBFD157BA60C17 /* FeedServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3931C9BE32E6720C1D0D /* FeedServiceImpl.m */; };
 		74AD3C42770D18773D372293 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
@@ -22,6 +24,7 @@
 		74AD3FB421BA00685D7CF8AE /* NetworkClientsAssemblyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */; };
 		A727DE8D7EEC7856220F2A4A /* Pods_RSS_FeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFA989AA2A03EDFE27B8854 /* Pods_RSS_FeedTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B74143041D27B44400E206D1 /* FeedServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD35ECFC537C6F7D36B528 /* FeedServiceTests.m */; };
+		B74143051D27BD8500E206D1 /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F83A763F7B8E8BEB50B /* ServiceComponentsAssembly.m */; };
 		B7D10A3A1D226F8300AF06D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D10A391D226F8300AF06D6 /* main.m */; };
 		B7D10A531D226F8300AF06D6 /* RSS_FeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D10A521D226F8300AF06D6 /* RSS_FeedTests.m */; };
 /* End PBXBuildFile section */
@@ -46,6 +49,7 @@
 		74AD3175B5C5274AEED1ED06 /* ServiceComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponents.h; sourceTree = "<group>"; };
 		74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNetworkClient.m; sourceTree = "<group>"; };
 		74AD33447B9208C7A514EBC6 /* VASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASAppDelegate.h; sourceTree = "<group>"; };
+		74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = ServiceComponentsURLs.plist; sourceTree = "<group>"; };
 		74AD357A46D4BA4A155CD313 /* ServiceComponentsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponentsAssembly.h; sourceTree = "<group>"; };
 		74AD35ECFC537C6F7D36B528 /* FeedServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedServiceTests.m; sourceTree = "<group>"; };
 		74AD37F38C92EA855931425A /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
@@ -57,6 +61,7 @@
 		74AD3AD2F69EADBC1E574CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssemblyTest.m; sourceTree = "<group>"; };
 		74AD3BCC5C4742600C50B2D7 /* UITableView+VASCellNibRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+VASCellNibRegistration.h"; sourceTree = "<group>"; };
+		74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceComponentsAssemblyTest.m; sourceTree = "<group>"; };
 		74AD3C514FF169F66C50F651 /* NetwokClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetwokClientTest.m; sourceTree = "<group>"; };
 		74AD3CE43F46A53F01BCE51F /* NetworkClientsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsAssembly.h; sourceTree = "<group>"; };
 		74AD3D2497602CE5CE9D38D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "RSS Feed/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
@@ -110,6 +115,7 @@
 				74AD3175B5C5274AEED1ED06 /* ServiceComponents.h */,
 				74AD3F83A763F7B8E8BEB50B /* ServiceComponentsAssembly.m */,
 				74AD357A46D4BA4A155CD313 /* ServiceComponentsAssembly.h */,
+				74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */,
 			);
 			path = ServiceComponentsAssembly;
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 		74AD34902ECEFCAD41858262 /* ServiceComponentsAssemblyTest */ = {
 			isa = PBXGroup;
 			children = (
+				74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */,
 			);
 			path = ServiceComponentsAssemblyTest;
 			sourceTree = "<group>";
@@ -607,6 +614,7 @@
 				74AD30847B9227A2610EC74A /* Assets.xcassets in Resources */,
 				74AD38A0E7DF033AC2618078 /* LaunchScreen.storyboard in Resources */,
 				74AD3098B8F9D8780DE08D9D /* Feed.storyboard in Resources */,
+				74AD38E211AA13C1C7B207CD /* ServiceComponentsURLs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,7 +743,9 @@
 				74AD3A792AD9811AA814E780 /* NetworkClientsAssembly.m in Sources */,
 				74AD3FB421BA00685D7CF8AE /* NetworkClientsAssemblyTest.m in Sources */,
 				74AD37191F42309474472EC8 /* NetwokClientTest.m in Sources */,
+				B74143051D27BD8500E206D1 /* ServiceComponentsAssembly.m in Sources */,
 				B74143041D27B44400E206D1 /* FeedServiceTests.m in Sources */,
+				74AD31999D4AD057ED2D328F /* ServiceComponentsAssemblyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

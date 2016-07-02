@@ -6,6 +6,11 @@
 #import <Foundation/Foundation.h>
 #import "ServiceComponents.h"
 
-@interface ServiceComponentsAssembly : NSObject <ServiceComponents>
+@class TyphoonAssembly;
+@protocol NetworkClientsFactory;
+
+@interface ServiceComponentsAssembly : TyphoonAssembly <ServiceComponents>
+
+@property (strong, nonatomic) TyphoonAssembly <NetworkClientsFactory> *networkClientsFactory;
 
 @end
