@@ -8,12 +8,13 @@
 
 #import <Typhoon/Typhoon.h>
 #import <RamblerTyphoonUtils/AssemblyCollector.h>
+#import "ModuleAssemblyBase.h"
 
 /**
  @author Igor Vasilenko
 
  FeedModule module
  */
-@interface FeedModuleAssembly : TyphoonAssembly <RamblerInitialAssembly>
+@interface FeedModuleAssembly : ModuleAssemblyBase <RamblerInitialAssembly>
 
 @end
