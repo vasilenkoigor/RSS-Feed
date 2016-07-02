@@ -12,7 +12,7 @@
 
 @protocol FeedModuleViewOutput;
 
-@interface FeedModuleViewController : UIViewController <FeedModuleViewInput>
+@interface FeedModuleViewController : UITableViewController <FeedModuleViewInput>
 
 @property (nonatomic, strong) id<FeedModuleViewOutput> output;
 
