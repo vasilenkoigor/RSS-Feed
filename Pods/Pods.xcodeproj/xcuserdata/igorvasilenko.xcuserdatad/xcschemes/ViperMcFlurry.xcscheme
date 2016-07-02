@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0CB9BD8BA6595931052156FE"
+               BlueprintIdentifier = "B0C95D9770ED17DD90041D581609DC84"
                BuildableName = "ViperMcFlurry.framework"
                BlueprintName = "ViperMcFlurry"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A160F80B51F80FD1BF2130D"
+               BlueprintIdentifier = "DDA9D61A8A9D90F5BF554DB1EC8FC29F"
                BuildableName = "Pods_RSS_FeedTests.framework"
                BlueprintName = "Pods-RSS FeedTests"
                ReferencedContainer = "container:Pods.xcodeproj">
