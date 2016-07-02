@@ -29,7 +29,8 @@
 
 #pragma mark - Настройка окружения для тестирования
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
 
     self.presenter = [[FeedModulePresenter alloc] init];
@@ -43,7 +44,8 @@
     self.presenter.view = self.mockView;
 }
 
-- (void)tearDown {
+- (void)tearDown
+{
     self.presenter = nil;
 
     self.mockView = nil;
@@ -57,15 +59,16 @@
 
 #pragma mark - Тестирование методов FeedModuleViewOutput
 
-- (void)testThatPresenterHandlesViewReadyEvent {
+- (void)testThatPresenterHandlesViewReadyEvent
+{
     // given
-
 
     // when
     [self.presenter didTriggerViewReadyEvent];
 
     // then
     OCMVerify([self.mockView setupInitialState]);
+    OCMVerify([self.mockInteractor loadRssFeedFromAllServicesList]);
 }
 
 #pragma mark - Тестирование методов FeedModuleInteractorOutput

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol FeedModuleModuleInput //<RamblerViperModuleInput>
+@protocol FeedModuleModuleInput
 
 /**
  @author Igor Vasilenko

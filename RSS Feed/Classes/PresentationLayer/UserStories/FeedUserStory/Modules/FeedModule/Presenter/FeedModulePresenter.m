@@ -33,7 +33,7 @@
 
 - (void)didLoadRssFeed:(NSArray <ItemInfoModel *> *)rssFeedArray error:(NSError *)error
 {
-	NSLog(@"");
+
 }
 
 @end
