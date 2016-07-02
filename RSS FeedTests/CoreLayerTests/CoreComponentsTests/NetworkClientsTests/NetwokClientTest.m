@@ -15,6 +15,7 @@
 
 @property (strong, nonatomic) id <NetworkClient> networkClient;
 @property (strong, nonatomic) id mockFeedParser;
+@property (copy, nonatomic) NetworkClientCompletionBlock completionBlock;
 
 @end
 
@@ -24,7 +25,10 @@
 {
     [super setUp];
 
-    self.mockFeedParser = OCMClassMock([MWFeedParser class]);
+    self.completionBlock = ^(MWFeedItem *item, NSError *error) {
+
+    };
+    self.mockFeedParser = OCMPartialMock([MWFeedParser new]);
     self.networkClient = [[CommonNetworkClient alloc] initWithFeedParser:self.mockFeedParser];
 }
 
@@ -37,10 +41,30 @@
 - (void)testNetworkClientInitiateParsingFeed
 {
     // when
-    [self.networkClient sendRequestWithCompletionBlock:OCMOCK_ANY];
+    [self.networkClient sendRequestWithCompletionBlock:self.completionBlock];
 
     // then
     OCMVerify([self.mockFeedParser parse]);
+}
+
+- (void)testNetworkClientFinishParsingFeedSuccessCallback
+{
+    // when
+    [self.networkClient sendRequestWithCompletionBlock:self.completionBlock];
+
+    // then
+    OCMVerify(self.completionBlock(nil, OCMClassMock([NSError class])));
+}
+
+- (void)testNetworkClientFinishParsingFeedFailCallback
+{
+    // when
+    NSURL *stubURL = [[NSURL alloc] initWithString:@"http://www.gazeta.ru/export/rss/lenta.xml"];
+    OCMStub([self.mockFeedParser url]).andReturn(stubURL);
+    [self.networkClient sendRequestWithCompletionBlock:self.completionBlock];
+
+    // then
+    OCMVerify(self.completionBlock(nil, OCMClassMock([NSError class])));
 }
 
 @end
