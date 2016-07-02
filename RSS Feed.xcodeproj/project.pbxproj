@@ -24,6 +24,7 @@
 		74AD38E211AA13C1C7B207CD /* ServiceComponentsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */; };
 		74AD3A792AD9811AA814E780 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3AF5EDFBFD157BA60C17 /* FeedServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3931C9BE32E6720C1D0D /* FeedServiceImpl.m */; };
+		74AD3B640F50707C57990970 /* StringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD31D7A9ACA0F6BA7857B5 /* StringConstants.m */; };
 		74AD3C42770D18773D372293 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3C688D6D7C6C92BC055C /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F83A763F7B8E8BEB50B /* ServiceComponentsAssembly.m */; };
 		74AD3DAE71EA33FA63C5508A /* UITableView+VASCellNibRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F7578FB6262547EFEE9 /* UITableView+VASCellNibRegistration.m */; };
@@ -70,6 +71,7 @@
 		74AD305619CB115E9EBEF1CD /* CommonNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNetworkClient.h; sourceTree = "<group>"; };
 		74AD30C1F35B0A0E1D0F3A0F /* NetworkClientsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsFactory.h; sourceTree = "<group>"; };
 		74AD3175B5C5274AEED1ED06 /* ServiceComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponents.h; sourceTree = "<group>"; };
+		74AD31D7A9ACA0F6BA7857B5 /* StringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringConstants.m; sourceTree = SOURCE_ROOT; };
 		74AD3258DB5624027405BCA8 /* ModuleAssemblyBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAssemblyBase.m; sourceTree = "<group>"; };
 		74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNetworkClient.m; sourceTree = "<group>"; };
 		74AD33447B9208C7A514EBC6 /* VASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASAppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		74AD37F38C92EA855931425A /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
 		74AD381B6125FF0558B9E952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "RSS Feed/Base.lproj/Feed.storyboard"; sourceTree = SOURCE_ROOT; };
 		74AD38C8394A38B3A524E741 /* VASAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VASAppDelegate.m; sourceTree = "<group>"; };
+		74AD38F25E411E7BEDDF2AEF /* StringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringConstants.h; sourceTree = SOURCE_ROOT; };
 		74AD3931C9BE32E6720C1D0D /* FeedServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedServiceImpl.m; sourceTree = "<group>"; };
 		74AD39C5BB3681B6EE692000 /* FeedServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedServiceImpl.h; sourceTree = "<group>"; };
 		74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssembly.m; sourceTree = "<group>"; };
@@ -507,6 +510,8 @@
 		74AD3C12101CD5FEEC61F808 /* StringConstants */ = {
 			isa = PBXGroup;
 			children = (
+				74AD31D7A9ACA0F6BA7857B5 /* StringConstants.m */,
+				74AD38F25E411E7BEDDF2AEF /* StringConstants.h */,
 			);
 			path = StringConstants;
 			sourceTree = "<group>";
@@ -973,6 +978,7 @@
 				DD3FA854EC6AF2DA39AC4600 /* FeedModuleRouter.m in Sources */,
 				74AD32E08A1E2B421C32D3E6 /* ItemInfoModel.m in Sources */,
 				74AD30C3D54053FAF8D1981E /* ModuleAssemblyBase.m in Sources */,
+				74AD3B640F50707C57990970 /* StringConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,8 @@
             buildForRunning = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7B902876590AFB6B2101E6C7C1C76B72"
-               BuildableName = "MWFeedParser.framework"
-               BlueprintName = "MWFeedParser"
+               BuildableName = "Pods-RSS FeedTests-RamblerTyphoonUtils"
+               BlueprintName = "Pods-RSS FeedTests-RamblerTyphoonUtils"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
