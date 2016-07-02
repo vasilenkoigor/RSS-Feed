@@ -14,7 +14,8 @@
 
 #pragma mark - Методы жизненного цикла
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
 	[super viewDidLoad];
 
 	[self.output didTriggerViewReadyEvent];
@@ -22,7 +23,8 @@
 
 #pragma mark - Методы FeedModuleViewInput
 
-- (void)setupInitialState {
+- (void)setupInitialState
+{
 	// В этом методе происходит настройка параметров view, зависящих от ее жизненого цикла (создание элементов, анимации и пр.)
 }
 

@@ -9,9 +9,12 @@
 #import "FeedModuleInteractorInput.h"
 
 @protocol FeedModuleInteractorOutput;
+@protocol FeedService;
 
 @interface FeedModuleInteractor : NSObject <FeedModuleInteractorInput>
 
 @property (nonatomic, weak) id<FeedModuleInteractorOutput> output;
+@property (nonatomic, strong, readonly) id <FeedService> gazetaFeedService;
+@property (nonatomic, strong, readonly) id <FeedService> lentaFeedService;
 
 @end

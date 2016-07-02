@@ -12,10 +12,12 @@
 #import "FeedModuleInteractor.h"
 #import "FeedModulePresenter.h"
 #import "FeedModuleRouter.h"
+#import "ServiceComponents.h"
 
 @implementation FeedModuleAssembly
 
-- (FeedModuleViewController *)viewFeedModuleModule {
+- (FeedModuleViewController *)viewFeedModuleModule
+{
     return [TyphoonDefinition withClass:[FeedModuleViewController class]
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(output)
@@ -23,15 +25,19 @@
                           }];
 }
 
-- (FeedModuleInteractor *)interactorFeedModuleModule {
+- (FeedModuleInteractor *)interactorFeedModuleModule
+{
     return [TyphoonDefinition withClass:[FeedModuleInteractor class]
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(output)
                                                     with:[self presenterFeedModuleModule]];
+                              [definition injectProperty:@selector(gazetaFeedService) with:[self.serviceComponents gazetaFeedService]];
+                              [definition injectProperty:@selector(lentaFeedService) with:[self.serviceComponents lentaFeedService]];
                           }];
 }
 
-- (FeedModulePresenter *)presenterFeedModuleModule {
+- (FeedModulePresenter *)presenterFeedModuleModule
+{
     return [TyphoonDefinition withClass:[FeedModulePresenter class]
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(view)
@@ -43,7 +49,8 @@
                           }];
 }
 
-- (FeedModuleRouter *)routerFeedModuleModule {
+- (FeedModuleRouter *)routerFeedModuleModule
+{
     return [TyphoonDefinition withClass:[FeedModuleRouter class]
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(transitionHandler)

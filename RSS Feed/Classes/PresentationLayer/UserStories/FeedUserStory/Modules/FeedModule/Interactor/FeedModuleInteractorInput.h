@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class ItemInfoModel;
+
 @protocol FeedModuleInteractorInput <NSObject>
+
+- (void)loadRssFeedFromAllServicesList;
 
 @end

@@ -16,13 +16,15 @@
 
 #pragma mark - Методы FeedModuleModuleInput
 
-- (void)configureModule {
+- (void)configureModule
+{
     // Стартовая конфигурация модуля, не привязанная к состоянию view
 }
 
 #pragma mark - Методы FeedModuleViewOutput
 
-- (void)didTriggerViewReadyEvent {
+- (void)didTriggerViewReadyEvent
+{
 	[self.view setupInitialState];
 }
 

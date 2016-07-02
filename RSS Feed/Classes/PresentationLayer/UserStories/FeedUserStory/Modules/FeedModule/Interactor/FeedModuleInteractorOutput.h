@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class ItemInfoModel;
+
 @protocol FeedModuleInteractorOutput <NSObject>
+
+- (void)didLoadRssFeed:(NSArray <ItemInfoModel *> *)rssFeedArray error:(NSError *)error;
 
 @end
