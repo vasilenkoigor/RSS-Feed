@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class ItemInfoModel;
+
 @protocol FeedModuleViewInput <NSObject>
 
 /**
@@ -16,6 +18,13 @@
  Метод настраивает начальный стейт view
  */
 - (void)setupInitialState;
+
+/**
+ @author Igor Vasilenko
+
+ Метод обновляет сейт view после успешной загрузки rss feed
+ */
+- (void)updateStateWithFeed:(NSArray <ItemInfoModel *> *)feed;
 
 /**
  * @author Igor Vasilenko

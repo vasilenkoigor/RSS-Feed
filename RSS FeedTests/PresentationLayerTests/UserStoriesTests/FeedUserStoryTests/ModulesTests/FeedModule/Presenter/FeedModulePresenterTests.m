@@ -108,7 +108,7 @@
     [self.presenter didLoadRssFeed:feed error:nil];
 
     // then
-    OCMVerify([self.mockView updateViewStateWithFeed:OCMOCK_ANY]);
+    OCMVerify([self.mockView updateStateWithFeed:OCMOCK_ANY]);
 }
 
 @end

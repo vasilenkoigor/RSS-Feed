@@ -41,6 +41,8 @@
 	if (error) {
 		[self.view showAlertWithTitle:nil
 							  message:@"Something went wrong"];
+	} else {
+		[self.view updateStateWithFeed:rssFeedArray];
 	}
 }
 
