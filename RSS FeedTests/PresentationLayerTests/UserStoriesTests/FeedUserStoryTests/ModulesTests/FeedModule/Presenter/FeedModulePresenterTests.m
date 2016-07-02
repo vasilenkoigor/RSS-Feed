@@ -87,9 +87,11 @@
 - (void)testThatPresenterHandleFailingRequestRssFeed
 {
     // given
+    NSError *error = [NSError new];
 
     // when
     [self.presenter didTriggerPullToRefreshEvent];
+    [self.presenter didLoadRssFeed:OCMOCK_ANY error:error];
 
     // then
     OCMVerify([self.mockView showAlertWithTitle:OCMOCK_ANY message:OCMOCK_ANY]);
