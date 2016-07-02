@@ -71,6 +71,17 @@
     OCMVerify([self.mockInteractor loadRssFeedFromAllServicesList]);
 }
 
+- (void)testThatPresenterHandlesPullToRefreshEvent
+{
+    // given
+
+    // when
+    [self.presenter didTriggerPullToRefreshEvent];
+
+    // then
+    OCMVerify([self.mockInteractor loadRssFeedFromAllServicesList]);
+}
+
 #pragma mark - Тестирование методов FeedModuleInteractorOutput
 
 @end
