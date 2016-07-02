@@ -25,7 +25,7 @@
 {
     [super setUp];
 
-    self.completionBlock = ^(MWFeedItem *item, NSError *error) {
+    self.completionBlock = ^(NSArray <MWFeedItem *> *result, NSError *error) {
 
     };
     self.mockFeedParser = OCMPartialMock([MWFeedParser new]);
