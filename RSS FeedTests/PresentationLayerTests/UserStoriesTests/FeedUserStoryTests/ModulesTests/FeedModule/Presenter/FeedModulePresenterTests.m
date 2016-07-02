@@ -14,6 +14,7 @@
 #import "FeedModuleViewInput.h"
 #import "FeedModuleInteractorInput.h"
 #import "FeedModuleRouterInput.h"
+#import "ItemInfoModel.h"
 
 @interface FeedModulePresenterTests : XCTestCase
 
@@ -95,6 +96,19 @@
 
     // then
     OCMVerify([self.mockView showAlertWithTitle:OCMOCK_ANY message:OCMOCK_ANY]);
+}
+
+- (void)testThatPresenterHandleSuccessRequestRssFeed
+{
+    // given
+    NSArray *feed = @[[ItemInfoModel new]];
+
+    // when
+    [self.presenter didTriggerPullToRefreshEvent];
+    [self.presenter didLoadRssFeed:feed error:nil];
+
+    // then
+    OCMVerify([self.mockView updateViewStateWithFeed:OCMOCK_ANY]);
 }
 
 @end
