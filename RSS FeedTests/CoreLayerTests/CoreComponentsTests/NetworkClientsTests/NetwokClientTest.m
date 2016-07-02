@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Igor Vasilenko. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+#import <XCTest/XCTestCase.h>
 #import <OCMock/OCMock.h>
 #import <MWFeedParser/MWFeedParser.h>
 #import "CommonNetworkClient.h"
