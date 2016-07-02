@@ -7,6 +7,7 @@ pod 'ReactiveCocoa'
 pod 'Typhoon'
 pod 'ViperMcFlurry'
 pod 'MWFeedParser'
+pod "RamblerTyphoonUtils/AssemblyCollector"
 
 target :’RSS FeedTests’, :exclusive => true do
     pod 'OCMock'

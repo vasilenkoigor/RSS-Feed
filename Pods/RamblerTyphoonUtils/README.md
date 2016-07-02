@@ -19,10 +19,10 @@ At first, make your assemblies conform the `RamblerInitialAssembly` protocol:
 @end
 ```
 
-Then, instead of adding this assembly in the `Info.plist` file, add the following code in the `VASAppDelegate`:
+Then, instead of adding this assembly in the `Info.plist` file, add the following code in the `AppDelegate`:
 
 ```objc
-@implementation VASAppDelegate
+@implementation AppDelegate
 
 - (NSArray *)initialAssemblies {
     RamblerInitialAssemblyCollector *collector = [RamblerInitialAssemblyCollector new];
@@ -95,7 +95,7 @@ To use the `AssemblyTesting`:
 ```ruby
 target 'ProjectNameTargetTests', :exclusive => true do
     pod "RamblerTyphoonUtils/AssemblyTesting"
-end
+end 
 ```
 
 **Warning:** do not include `AssemblyTesting` subspec in the main target!
