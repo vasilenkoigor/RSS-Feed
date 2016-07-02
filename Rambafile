@@ -1,0 +1,35 @@
+### Headers settings
+company: Igor Vasilenko
+
+### Xcode project settings
+project_name: RSS-Feed
+xcodeproj_path: RSS Feed.xcodeproj
+
+
+### Code generation settings section
+# The main project target name
+project_target: RSS Feed
+
+# The file path for new modules
+project_file_path: 'RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules'
+
+# The Xcode group path to new modules
+project_group_path: 'RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules'
+
+### Tests generation settings section
+# The tests target name
+test_target: RSS FeedTests
+
+# The file path for new tests
+test_file_path: 'RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests'
+
+# The Xcode group path to new tests
+test_group_path: 'RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests'
+
+### Dependencies settings section
+podfile_path: Podfile
+
+
+### Templates
+templates:
+- {name: rviper_controller}

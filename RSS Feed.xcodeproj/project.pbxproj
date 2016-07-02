@@ -598,6 +598,8 @@
 			mainGroup = B7D10A2C1D226F8300AF06D6;
 			productRefGroup = B7D10A361D226F8300AF06D6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				B7D10A341D226F8300AF06D6 /* RSS Feed */,
