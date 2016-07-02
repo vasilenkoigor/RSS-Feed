@@ -38,7 +38,10 @@
 
 - (void)didLoadRssFeed:(NSArray <ItemInfoModel *> *)rssFeedArray error:(NSError *)error
 {
-
+	if (error) {
+		[self.view showAlertWithTitle:nil
+							  message:@"Something went wrong"];
+	}
 }
 
 @end

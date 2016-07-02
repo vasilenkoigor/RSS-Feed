@@ -28,4 +28,19 @@
 	// В этом методе происходит настройка параметров view, зависящих от ее жизненого цикла (создание элементов, анимации и пр.)
 }
 
+- (void)showAlertWithTitle:(NSString *)title message:(NSString *)message
+{
+	UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
+																			 message:message
+																	  preferredStyle:UIAlertControllerStyleAlert];
+	UIAlertAction *alertAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil)
+														  style:UIAlertActionStyleDefault
+														handler:NULL];
+	[alertController addAction:alertAction];
+
+	[self presentViewController:alertController
+					   animated:YES
+					 completion:NULL];
+}
+
 @end

@@ -17,4 +17,11 @@
  */
 - (void)setupInitialState;
 
+/**
+ * @author Igor Vasilenko
+ *
+ * Метод показывающий алерт с title и message
+ */
+- (void)showAlertWithTitle:(NSString *)title message:(NSString *)message;
+
 @end
