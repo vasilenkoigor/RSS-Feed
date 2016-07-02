@@ -4,7 +4,6 @@
 //
 
 #import <MWFeedParser/MWFeedItem.h>
-#import <OCMock/OCMArg.h>
 #import "ItemInfoModel.h"
 
 @implementation ItemInfoModel

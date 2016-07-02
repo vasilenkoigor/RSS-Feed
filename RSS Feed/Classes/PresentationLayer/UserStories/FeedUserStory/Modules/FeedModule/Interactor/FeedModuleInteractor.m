@@ -8,6 +8,7 @@
 
 #import <ReactiveCocoa/RACSignal+Operations.h>
 #import <MWFeedParser/MWFeedItem.h>
+#import <ReactiveCocoa/RACTuple.h>
 #import "FeedModuleInteractor.h"
 
 #import "FeedModuleInteractorOutput.h"
@@ -25,24 +26,34 @@
 
     [[[RACSignal combineLatest:@[gazetaRssFeedSignal, lentaRssFeedSignal]
                         reduce:^id(NSArray <MWFeedItem *> *gazetaFeed, NSArray <MWFeedItem *> *lentaFeed) {
-                            /// Converting to ItemInfoModel
-                            NSMutableArray *newFeed = [NSMutableArray array];
-                            NSArray *combinedResult = [gazetaFeed arrayByAddingObjectsFromArray:lentaFeed];
-                            [combinedResult enumerateObjectsUsingBlock:^(MWFeedItem *obj, NSUInteger idx, BOOL *stop) {
-                                [newFeed addObject:[[ItemInfoModel alloc] initWithFeedItem:obj]];
-                            }];
-                            return newFeed;
-                        }] map:^id(NSArray <MWFeedItem *> *feed) {
-        /// Map by date
-        return [feed sortedArrayUsingComparator:^NSComparisonResult(MWFeedItem *obj1, MWFeedItem *obj2) {
-            return [obj2.date compare:obj1.date];
-        }];
+                            return [self convertedRequestResultWithTuple:RACTuplePack(gazetaFeed, lentaFeed)];
+                        }] map:^id(NSArray <MWFeedItem *> *feedItems) {
+        return [self sortedFeedItemsByDate:feedItems];
     }] subscribeNext:^(NSArray <ItemInfoModel *> *result) {
-        // Success
         [self.output didLoadRssFeed:result error:nil];
     } error:^(NSError *error) {
-        // Error
         [self.output didLoadRssFeed:nil error:error];
+    }];
+}
+
+#pragma mark - Private
+
+- (NSArray <ItemInfoModel *> *)convertedRequestResultWithTuple:(RACTuple *)resultTuple
+{
+    NSMutableArray *newFeed = [NSMutableArray array];
+
+    NSArray *combinedResult = [resultTuple.first arrayByAddingObjectsFromArray:resultTuple.second];
+    [combinedResult enumerateObjectsUsingBlock:^(MWFeedItem *obj, NSUInteger idx, BOOL *stop) {
+        [newFeed addObject:[[ItemInfoModel alloc] initWithFeedItem:obj]];
+    }];
+
+    return newFeed;
+}
+
+- (NSArray <ItemInfoModel *> *)sortedFeedItemsByDate:(NSArray <ItemInfoModel *> *)feedItems
+{
+    return [feedItems sortedArrayUsingComparator:^NSComparisonResult(MWFeedItem *obj1, MWFeedItem *obj2) {
+        return [obj2.date compare:obj1.date];
     }];
 }
 
