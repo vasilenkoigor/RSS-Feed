@@ -31,6 +31,7 @@
 
 - (void)didTriggerPullToRefreshEvent
 {
+	[self.view initiateStartRefreshingFeedState];
 	[self.interactor loadRssFeedFromAllServicesList];
 }
 
@@ -38,6 +39,8 @@
 
 - (void)didLoadRssFeed:(NSArray <ItemInfoModel *> *)rssFeedArray error:(NSError *)error
 {
+	[self.view stopRefreshingFeedState];
+
 	if (error) {
 		[self.view showAlertWithTitle:nil
 							  message:@"Something went wrong"];

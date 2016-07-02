@@ -27,6 +27,20 @@
 - (void)updateStateWithFeed:(NSArray <ItemInfoModel *> *)feed;
 
 /**
+ @author Igor Vasilenko
+
+ Метод обновляет стейт view и показывает progress hud
+ */
+- (void)initiateStartRefreshingFeedState;
+
+/**
+ @author Igor Vasilenko
+
+Метод обновляет стейт view и убирает progress hud
+ */
+- (void)stopRefreshingFeedState;
+
+/**
  * @author Igor Vasilenko
  *
  * Метод показывающий алерт с title и message

@@ -33,6 +33,16 @@
 	///
 }
 
+- (void)initiateStartRefreshingFeedState
+{
+
+}
+
+- (void)stopRefreshingFeedState
+{
+
+}
+
 - (void)showAlertWithTitle:(NSString *)title message:(NSString *)message
 {
 	UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
