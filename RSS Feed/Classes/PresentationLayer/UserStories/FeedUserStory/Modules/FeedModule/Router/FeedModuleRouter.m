@@ -8,8 +8,6 @@
 
 #import "FeedModuleRouter.h"
 
-#import <ViperMcFlurry/ViperMcFlurry.h>
-
 @implementation FeedModuleRouter
 
 #pragma mark - Методы FeedModuleRouterInput

@@ -1,6 +1,0 @@
-framework module RamblerTyphoonUtils {
-  umbrella header "Pods-RSS FeedTests-RamblerTyphoonUtils-umbrella.h"
-
-  export *
-  module * { export * }
-}

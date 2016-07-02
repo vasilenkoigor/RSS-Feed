@@ -7,7 +7,6 @@
 //
 
 #import <Typhoon/Typhoon.h>
-#import <RamblerTyphoonUtils/AssemblyCollector.h>
 #import "ModuleAssemblyBase.h"
 
 /**
@@ -15,6 +14,6 @@
 
  FeedModule module
  */
-@interface FeedModuleAssembly : ModuleAssemblyBase <RamblerInitialAssembly>
+@interface FeedModuleAssembly : ModuleAssemblyBase
 
 @end

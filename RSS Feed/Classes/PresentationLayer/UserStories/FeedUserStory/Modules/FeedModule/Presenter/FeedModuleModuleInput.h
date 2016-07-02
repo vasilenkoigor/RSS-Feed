@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ViperMcFlurry/ViperMcFlurry.h>
 
-@protocol FeedModuleModuleInput <RamblerViperModuleInput>
+@protocol FeedModuleModuleInput //<RamblerViperModuleInput>
 
 /**
  @author Igor Vasilenko

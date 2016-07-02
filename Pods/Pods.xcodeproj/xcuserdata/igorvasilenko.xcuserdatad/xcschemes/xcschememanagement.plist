@@ -19,22 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RSS FeedTests-RamblerTyphoonUtils.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-RSS FeedTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RamblerTyphoonUtils.xcscheme</key>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>RamblerTyphoonUtils.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -54,14 +49,14 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ViperMcFlurry.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>01BCA24CAEF58F628E1C4A92C204DBF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>05AB461630E31C12C8286646C30966DD</key>
 		<dict>
 			<key>primary</key>
@@ -72,47 +67,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5374641AA72050D9A20C0AD268BE0AAF</key>
+		<key>41198BE23F2B0936F730D0E9AC2D4605</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53F7C6E6CBE3D2FB37CF2899B34BFB24</key>
+		<key>5668EE52B732238AB5B8B1509B41940B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9F1B57000AB5026FDDDE239241DD28BD</key>
+		<key>7B902876590AFB6B2101E6C7C1C76B72</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A4B4314DFB16C0016FCE62D006A57D24</key>
+		<key>811E69C2A24362B347DF1499D6472DFA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B0C95D9770ED17DD90041D581609DC84</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C9C1EE2617F4A8AEAF5681C77E719A6A</key>
+		<key>B6FC04AE2CFAE7C28DD25EA6E4E7370A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>D02E08439589872996252F4061652195</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D6D718B27CCA5F0E849734C987D85A8B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DDA9D61A8A9D90F5BF554DB1EC8FC29F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

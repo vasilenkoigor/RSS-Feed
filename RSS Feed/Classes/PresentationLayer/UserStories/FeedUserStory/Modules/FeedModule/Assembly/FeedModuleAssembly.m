@@ -13,16 +13,12 @@
 #import "FeedModulePresenter.h"
 #import "FeedModuleRouter.h"
 
-#import <ViperMcFlurry/ViperMcFlurry.h>
-
 @implementation FeedModuleAssembly
 
 - (FeedModuleViewController *)viewFeedModuleModule {
     return [TyphoonDefinition withClass:[FeedModuleViewController class]
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(output)
-                                                    with:[self presenterFeedModuleModule]];
-                              [definition injectProperty:@selector(moduleInput)
                                                     with:[self presenterFeedModuleModule]];
                           }];
 }

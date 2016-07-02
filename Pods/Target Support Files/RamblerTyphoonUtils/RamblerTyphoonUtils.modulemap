@@ -1,5 +1,5 @@
 framework module RamblerTyphoonUtils {
-  umbrella header "Pods-RamblerTyphoonUtils-umbrella.h"
+  umbrella header "RamblerTyphoonUtils-umbrella.h"
 
   export *
   module * { export * }
