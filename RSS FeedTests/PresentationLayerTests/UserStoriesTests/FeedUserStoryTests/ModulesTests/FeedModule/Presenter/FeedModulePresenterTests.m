@@ -84,4 +84,15 @@
 
 #pragma mark - Тестирование методов FeedModuleInteractorOutput
 
+- (void)testThatPresenterHandleFailingRequestRssFeed
+{
+    // given
+
+    // when
+    [self.presenter didTriggerPullToRefreshEvent];
+
+    // then
+    OCMVerify([self.mockView showAlertWithTitle:OCMOCK_ANY message:OCMOCK_ANY]);
+}
+
 @end
