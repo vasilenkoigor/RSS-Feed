@@ -80,6 +80,7 @@
     [self.presenter didTriggerPullToRefreshEvent];
 
     // then
+    OCMVerify([self.mockView initiateStartRefreshingFeedState]);
     OCMVerify([self.mockInteractor loadRssFeedFromAllServicesList]);
 }
 
@@ -95,6 +96,7 @@
     [self.presenter didLoadRssFeed:OCMOCK_ANY error:error];
 
     // then
+    OCMVerify([self.mockView stopRefreshingFeedState]);
     OCMVerify([self.mockView showAlertWithTitle:OCMOCK_ANY message:OCMOCK_ANY]);
 }
 
@@ -108,6 +110,7 @@
     [self.presenter didLoadRssFeed:feed error:nil];
 
     // then
+    OCMVerify([self.mockView stopRefreshingFeedState]);
     OCMVerify([self.mockView updateStateWithFeed:OCMOCK_ANY]);
 }
 
