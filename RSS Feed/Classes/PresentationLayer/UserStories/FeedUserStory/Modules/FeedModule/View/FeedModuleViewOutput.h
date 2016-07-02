@@ -17,4 +17,11 @@
  */
 - (void)didTriggerViewReadyEvent;
 
+/**
+ * @author Igor Vasilenko
+ *
+ * Метод сообщает презентеру о том, что был инициирован pull to refresh
+ */
+- (void)didTriggerPullToRefreshEvent;
+
 @end
