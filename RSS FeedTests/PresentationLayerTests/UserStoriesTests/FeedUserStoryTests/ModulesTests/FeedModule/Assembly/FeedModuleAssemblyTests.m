@@ -27,14 +27,16 @@
 
 #pragma mark - Настройка окружения для тестирования
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
 
     self.assembly = [[FeedModuleAssembly alloc] init];
     [self.assembly activate];
 }
 
-- (void)tearDown {
+- (void)tearDown
+{
     self.assembly = nil;
 
     [super tearDown];
@@ -42,15 +44,16 @@
 
 #pragma mark - Тестирование создания элементов модуля
 
-- (void)testThatAssemblyCreatesViewController {
+- (void)testThatAssemblyCreatesViewController
+{
     // given
     Class targetClass = [FeedModuleViewController class];
     NSArray *protocols = @[
-                           @protocol(FeedModuleViewInput)
-                           ];
+            @protocol(FeedModuleViewInput)
+    ];
     NSArray *dependencies = @[
-                              RamblerSelector(output)
-                              ];
+            RamblerSelector(output)
+    ];
 
     // when
     id result = [self.assembly viewFeedModuleModule];
@@ -63,19 +66,20 @@
                     dependencies:dependencies];
 }
 
-- (void)testThatAssemblyCreatesPresenter {
+- (void)testThatAssemblyCreatesPresenter
+{
     // given
     Class targetClass = [FeedModulePresenter class];
     NSArray *protocols = @[
-                           @protocol(FeedModuleModuleInput),
-                           @protocol(FeedModuleViewOutput),
-                           @protocol(FeedModuleInteractorOutput)
-                           ];
+            @protocol(FeedModuleModuleInput),
+            @protocol(FeedModuleViewOutput),
+            @protocol(FeedModuleInteractorOutput)
+    ];
     NSArray *dependencies = @[
-                              RamblerSelector(interactor),
-                              RamblerSelector(view),
-                              RamblerSelector(router)
-                              ];
+            RamblerSelector(interactor),
+            RamblerSelector(view),
+            RamblerSelector(router)
+    ];
 
     // when
     id result = [self.assembly presenterFeedModuleModule];
@@ -88,15 +92,18 @@
                     dependencies:dependencies];
 }
 
-- (void)testThatAssemblyCreatesInteractor {
+- (void)testThatAssemblyCreatesInteractor
+{
     // given
     Class targetClass = [FeedModuleInteractor class];
     NSArray *protocols = @[
-                           @protocol(FeedModuleInteractorInput)
-                           ];
+            @protocol(FeedModuleInteractorInput)
+    ];
     NSArray *dependencies = @[
-                              RamblerSelector(output)
-                              ];
+            RamblerSelector(output),
+            RamblerSelector(gazetaFeedService),
+            RamblerSelector(lentaFeedService)
+    ];
 
     // when
     id result = [self.assembly interactorFeedModuleModule];
@@ -109,15 +116,16 @@
                     dependencies:dependencies];
 }
 
-- (void)testThatAssemblyCreatesRouter {
+- (void)testThatAssemblyCreatesRouter
+{
     // given
     Class targetClass = [FeedModuleRouter class];
     NSArray *protocols = @[
-                           @protocol(FeedModuleRouterInput)
-                           ];
+            @protocol(FeedModuleRouterInput)
+    ];
     NSArray *dependencies = @[
-                              RamblerSelector(transitionHandler)
-                              ];
+            RamblerSelector(transitionHandler)
+    ];
 
     // when
     id result = [self.assembly routerFeedModuleModule];
