@@ -14,13 +14,6 @@
 #import "FeedService.h"
 #import "ItemInfoModel.h"
 
-@interface FeedModuleInteractor ()
-
-@property (nonatomic, strong, readwrite) id <FeedService> gazetaFeedService;
-@property (nonatomic, strong, readwrite) id <FeedService> lentaFeedService;
-
-@end
-
 @implementation FeedModuleInteractor
 
 #pragma mark - Методы FeedModuleInteractorInput
