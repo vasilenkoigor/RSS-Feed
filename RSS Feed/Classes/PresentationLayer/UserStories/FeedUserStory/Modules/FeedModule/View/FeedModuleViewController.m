@@ -10,6 +10,7 @@
 
 #import "FeedModuleViewOutput.h"
 #import "FeedDataDisplayManager.h"
+#import "SVProgressHUD.h"
 
 @implementation FeedModuleViewController
 
@@ -26,7 +27,8 @@
 
 - (void)setupInitialState
 {
-
+	self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+	[SVProgressHUD showWithStatus:@"Loading feed"];
 }
 
 - (void)updateStateWithFeed:(NSArray <ItemInfoModel *> *)feed
