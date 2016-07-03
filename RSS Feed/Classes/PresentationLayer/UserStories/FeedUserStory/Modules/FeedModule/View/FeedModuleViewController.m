@@ -31,7 +31,11 @@
 
 - (void)updateStateWithFeed:(NSArray <ItemInfoModel *> *)feed
 {
-	///
+	[self.feedDataDisplayManager configureDataDisplayManagerWithFeed:feed];
+
+	self.tableView.dataSource = [self.feedDataDisplayManager dataSourceForTableView:self.tableView];
+	self.tableView.delegate = [self.feedDataDisplayManager delegateForTableView:self.tableView
+														  baseTableViewDelegate:nil];
 }
 
 - (void)initiateStartRefreshingFeedState
