@@ -4,9 +4,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FeedCellObjectsBuilderFactory.h"
 
-@interface CellObjectsBuilderFactory ()
+@interface FeedCellObjectsBuilderFactory ()
 
-- (id <CellObjectsBuilderProtocol>)feedCellObjectsBuilder;
+- (FeedCellObjectsBuilder *)feedCellObjectsBuilder;
 
 @end

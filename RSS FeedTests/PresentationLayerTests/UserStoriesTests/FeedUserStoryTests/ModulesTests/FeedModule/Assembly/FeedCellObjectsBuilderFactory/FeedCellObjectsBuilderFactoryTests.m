@@ -1,5 +1,5 @@
 //
-//  CellObjectsBuilderFactoryTests.m
+//  FeedCellObjectsBuilderFactoryTests.m
 //  RSS Feed
 //
 //  Created by Igor Vasilenko on 03/07/16.
@@ -11,20 +11,21 @@
 #import <RamblerTyphoonUtils/RamblerTyphoonAssemblyTests.h>
 #import "TyphoonAssembly.h"
 #import "FeedCellObjectsBuilder.h"
+#import "FeedCellObjectsBuilderFactory.h"
 
-@interface CellObjectsBuilderFactoryTests : RamblerTyphoonAssemblyTests
+@interface FeedCellObjectsBuilderFactoryTests : RamblerTyphoonAssemblyTests
 
-@property (strong, nonatomic) CellObjectsBuilderFactory *assembly;
+@property (strong, nonatomic) FeedCellObjectsBuilderFactory *assembly;
 
 @end
 
-@implementation CellObjectsBuilderFactoryTests
+@implementation FeedCellObjectsBuilderFactoryTests
 
 - (void)setUp
 {
     [super setUp];
 
-    self.assembly = [[CellObjectsBuilderFactory assembly] activate];
+    self.assembly = [[FeedCellObjectsBuilderFactory assembly] activate];
 }
 
 - (void)tearDown
@@ -37,13 +38,12 @@
 {
     // given
     Class targetClass = [FeedCellObjectsBuilder class];
-    NSArray *protocols = @[@protocol(CellObjectsBuilderProtocol)];
 
     // when
-    id result = [self.assembly dataDisplayManager];
+    id result = [self.assembly feedCellObjectsBuilder];
 
     // then
-    RamblerTyphoonAssemblyTestsTypeDescriptor *descriptor = [RamblerTyphoonAssemblyTestsTypeDescriptor descriptorWithClass:targetClass andProtocols:protocols];
+    RamblerTyphoonAssemblyTestsTypeDescriptor *descriptor = [RamblerTyphoonAssemblyTestsTypeDescriptor descriptorWithClass:targetClass andProtocols:nil];
     [self verifyTargetDependency:result
                   withDescriptor:descriptor
                     dependencies:nil];
