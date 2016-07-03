@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db712ed4-f69a-4aa3-8d9a-c61a0fc86c92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" afterPath="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" />
     </list>
     <ignored path="RSS-Feed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedDataDisplayManagerTests.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeedDataDisplayManagerTests.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="43" column="62" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="62" />
+            <state relative-caret-position="330">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#160#185#0" expanded="true" />
               </folding>
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedDataDisplayManager.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeedDataDisplayManager.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="143" />
               <folding>
                 <element signature="e#108#139#0" expanded="true" />
               </folding>
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.h" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.h" />
         <option value="$PROJECT_DIR$/Podfile" />
-        <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" />
         <option value="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" />
+        <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" />
       </list>
     </option>
   </component>
@@ -793,12 +793,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_RSS_FeedTests - 2016.07.02 at 21h 55m 20s.xml">
-      <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_RSS_FeedTests - 2016.07.02 at 22h 14m 24s.xml">
-      <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
-    </history-entry>
     <history-entry file="All_in_RSS_FeedTests - 2016.07.02 at 22h 16m 01s.xml">
       <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
     </history-entry>
@@ -823,6 +817,12 @@
     <history-entry file="All_in_RSS_FeedTests - 2016.07.03 at 14h 22m 06s.xml">
       <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
     </history-entry>
+    <history-entry file="All_in_RSS_FeedTests - 2016.07.03 at 14h 30m 32s.xml">
+      <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_RSS_FeedTests - 2016.07.03 at 14h 32m 54s.xml">
+      <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -841,7 +841,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.45035744" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22869319" sideWeight="0.45035744" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1254,22 +1254,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m">
+    <entry file="file://$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#108#139#0" expanded="true" />
+            <element signature="e#160#185#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m">
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="43" column="62" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="62" />
+        <state relative-caret-position="195">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="143" />
           <folding>
-            <element signature="e#160#185#0" expanded="true" />
+            <element signature="e#108#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
