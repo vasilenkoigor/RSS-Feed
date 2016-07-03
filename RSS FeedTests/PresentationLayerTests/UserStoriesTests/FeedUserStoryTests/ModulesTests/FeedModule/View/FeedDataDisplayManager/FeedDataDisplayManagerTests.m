@@ -7,11 +7,15 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <OCMock/OCMock.h>
 #import "FeedDataDisplayManager.h"
+#import "FeedCellObjectsBuilder.h"
+#import "ItemInfoModel.h"
 
 @interface FeedDataDisplayManagerTests : XCTestCase
 
 @property (strong, nonatomic) FeedDataDisplayManager *feedDataDisplayManager;
+@property (strong, nonatomic) id mockedFeedCellObjectsBuilder;
 
 @end
 
@@ -22,6 +26,8 @@
     [super setUp];
 
     self.feedDataDisplayManager = [FeedDataDisplayManager new];
+    self.mockedFeedCellObjectsBuilder = OCMClassMock([FeedCellObjectsBuilder class]);
+    self.feedDataDisplayManager.feedCellObjectsBuilder = self.mockedFeedCellObjectsBuilder;
 }
 
 - (void)tearDown
@@ -51,6 +57,18 @@
 
     // then
     XCTAssertNotNil(delegate);
+}
+
+- (void)testThatFeedCellObjectsBuilderCreatesObjectsOnSetupDisplayManager
+{
+    // given
+    NSArray *feed = @[[ItemInfoModel new]];
+
+    // when
+    [self.feedDataDisplayManager configureDataDiplayManagerWithFeed:feed];
+
+    // then
+    OCMVerify([self.mockedFeedCellObjectsBuilder cellObjectsForFeed:OCMOCK_ANY]);
 }
 
 @end
