@@ -35,6 +35,7 @@
 		<string>FeedModuleAssembly</string>
 		<string>NetworkClientsAssembly</string>
 		<string>ServiceComponentsAssembly</string>
+		<string>FeedCellObjectsBuilderFactory</string>
 	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>

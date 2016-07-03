@@ -9,11 +9,15 @@
 #import <Typhoon/Typhoon.h>
 #import "ModuleAssemblyBase.h"
 
+@class FeedCellObjectsBuilderFactory;
+
 /**
  @author Igor Vasilenko
 
  FeedModule module
  */
 @interface FeedModuleAssembly : ModuleAssemblyBase
+
+@property (nonatomic, strong) FeedCellObjectsBuilderFactory *feedCellObjectsBuilderFactory;
 
 @end

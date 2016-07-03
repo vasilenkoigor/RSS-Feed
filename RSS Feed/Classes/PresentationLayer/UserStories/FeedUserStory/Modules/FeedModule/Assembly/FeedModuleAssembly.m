@@ -14,6 +14,7 @@
 #import "FeedModuleRouter.h"
 #import "ServiceComponents.h"
 #import "FeedDataDisplayManager.h"
+#import "FeedCellObjectsBuilderFactory.h"
 
 @implementation FeedModuleAssembly
 
@@ -23,6 +24,8 @@
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(output)
                                                     with:[self presenterFeedModuleModule]];
+                              [definition injectProperty:@selector(feedDataDisplayManager)
+                                                    with:[self dataDisplayManager]];
                           }];
 }
 
@@ -61,7 +64,11 @@
 
 - (FeedDataDisplayManager *)dataDisplayManager
 {
-    return [TyphoonDefinition withClass:[FeedDataDisplayManager class]];
+    return [TyphoonDefinition withClass:[FeedDataDisplayManager class]
+                          configuration:^(TyphoonDefinition *definition) {
+        [definition injectProperty:@selector(feedCellObjectsBuilder)
+                              with:[self.feedCellObjectsBuilderFactory feedCellObjectsBuilder]];
+    }];
 }
 
 @end
