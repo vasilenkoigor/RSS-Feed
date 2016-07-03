@@ -688,12 +688,14 @@
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Interactor/FeedModuleInteractorInput.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Interactor/FeedModuleInteractorOutput.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Interactor/FeedModuleInteractor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedModuleViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedModuleViewInput.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedModuleViewOutput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedCellObjectsBuilder/FeedCellObjectsBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedCellObjectsBuilder/FeedCellObjectsBuilder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedModuleViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedModuleViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Router/FeedModuleRouterInput.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Router/FeedModuleRouter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Router/FeedModuleRouter.h" isTestSource="false" />

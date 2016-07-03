@@ -10,6 +10,7 @@
 #import "ItemInfoModel.h"
 #import "OCMArg.h"
 #import "FeedCellObject.h"
+#import "FeedCellObjectsBuilder.h"
 
 @interface FeedCellObjectsBuilderTests : XCTestCase
 
@@ -39,6 +40,7 @@
     static NSInteger expectedNumberOfItemsInFeed = 3;
     NSInteger actualNumberOfFeedCellObjects = 0;
 
+    // when
     NSArray *cellObjects = [self.feedCellObjectsBuilder cellObjectsForFeed:feedArray];
     for (id cellObject in cellObjects) {
         if ([cellObject isKindOfClass:[FeedCellObject class]]) {
@@ -46,6 +48,7 @@
         }
     }
 
+    // then
     XCTAssertEqual(expectedNumberOfItemsInFeed, actualNumberOfFeedCellObjects);
 }
 

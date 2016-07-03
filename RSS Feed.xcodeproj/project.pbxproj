@@ -20,6 +20,7 @@
 		74AD31999D4AD057ED2D328F /* ServiceComponentsAssemblyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */; };
 		74AD32A7442CD9DDB3935728 /* VASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD38C8394A38B3A524E741 /* VASAppDelegate.m */; };
 		74AD32E08A1E2B421C32D3E6 /* ItemInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3720A674B9B96B736E92 /* ItemInfoModel.m */; };
+		74AD34220AEF421825B05F04 /* FeedCellObjectsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3BC5F6DBFA57D9F24FB1 /* FeedCellObjectsBuilder.m */; };
 		74AD34B65E1DCEA63C2D6460 /* FeedDataDisplayManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD32B56008D2A19681E7C2 /* FeedDataDisplayManagerTests.m */; };
 		74AD367EBA82EC49108BE794 /* FeedDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3BB8FE1591D0EDA296D3 /* FeedDataDisplayManager.m */; };
 		74AD37191F42309474472EC8 /* NetwokClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3C514FF169F66C50F651 /* NetwokClientTest.m */; };
@@ -84,6 +85,7 @@
 		74AD32F6223A41771972EBA9 /* DataDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDisplayManager.h; sourceTree = "<group>"; };
 		74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNetworkClient.m; sourceTree = "<group>"; };
 		74AD33447B9208C7A514EBC6 /* VASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASAppDelegate.h; sourceTree = "<group>"; };
+		74AD3413EF099C22667205DB /* FeedCellObjectsBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCellObjectsBuilder.h; sourceTree = "<group>"; };
 		74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = ServiceComponentsURLs.plist; sourceTree = "<group>"; };
 		74AD356F2649FD6F190C598D /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
 		74AD357A46D4BA4A155CD313 /* ServiceComponentsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponentsAssembly.h; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssemblyTest.m; sourceTree = "<group>"; };
 		74AD3B71345BB4E265A840C6 /* ModuleAssemblyBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAssemblyBase.h; sourceTree = "<group>"; };
 		74AD3BB8FE1591D0EDA296D3 /* FeedDataDisplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDataDisplayManager.m; sourceTree = "<group>"; };
+		74AD3BC5F6DBFA57D9F24FB1 /* FeedCellObjectsBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCellObjectsBuilder.m; sourceTree = "<group>"; };
 		74AD3BCC5C4742600C50B2D7 /* UITableView+VASCellNibRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+VASCellNibRegistration.h"; sourceTree = "<group>"; };
 		74AD3BDD68D4F95D951DEC28 /* FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
 		74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceComponentsAssemblyTest.m; sourceTree = "<group>"; };
@@ -420,6 +423,15 @@
 				74AD3CECA872424D8AB1E514 /* ConcreteClasses */,
 			);
 			path = NetworkClients;
+			sourceTree = "<group>";
+		};
+		74AD37C0902E30805A2F9600 /* FeedCellObjectsBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				74AD3BC5F6DBFA57D9F24FB1 /* FeedCellObjectsBuilder.m */,
+				74AD3413EF099C22667205DB /* FeedCellObjectsBuilder.h */,
+			);
+			path = FeedCellObjectsBuilder;
 			sourceTree = "<group>";
 		};
 		74AD37E5A2CEF7C76CD1F265 /* ConcreteServicesTests */ = {
@@ -806,6 +818,7 @@
 				503AF0EEA3AB0AC7C90CF54E /* FeedModuleViewController.h */,
 				11AD571C812B8A62B253F974 /* FeedModuleViewController.m */,
 				74AD386584F67D5516D3D2B3 /* FeedDataDisplayManager */,
+				74AD37C0902E30805A2F9600 /* FeedCellObjectsBuilder */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1016,6 +1029,7 @@
 				74AD3882AFFF006E0AF21E3A /* FeedCellObject.m in Sources */,
 				74AD3E63E68136538DC43306 /* FeedCell.m in Sources */,
 				74AD367EBA82EC49108BE794 /* FeedDataDisplayManager.m in Sources */,
+				74AD34220AEF421825B05F04 /* FeedCellObjectsBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
