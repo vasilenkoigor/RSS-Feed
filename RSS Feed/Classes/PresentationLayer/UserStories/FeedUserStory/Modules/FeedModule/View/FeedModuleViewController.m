@@ -26,7 +26,7 @@
 
 - (void)setupInitialState
 {
-	// В этом методе происходит настройка параметров view, зависящих от ее жизненого цикла (создание элементов, анимации и пр.)
+
 }
 
 - (void)updateStateWithFeed:(NSArray <ItemInfoModel *> *)feed

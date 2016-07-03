@@ -14,6 +14,7 @@
 #import "FeedModuleViewOutput.h"
 #import "ItemInfoModel.h"
 #import "FeedDataDisplayManager.h"
+#import "SVProgressHUD.h"
 
 @interface FeedModuleViewControllerTests : XCTestCase
 
@@ -70,7 +71,17 @@
 
 #pragma mark - Тестирование методов FeedModuleViewInput
 
-- (void)testSuccessConfigureViewWithEvent
+- (void)testSuccessSetupInitialState
+{
+    // when
+    [self.controller setupInitialState];
+
+    // then
+    OCMVerify([self.mockTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone]);
+    OCMVerify([SVProgressHUD showWithStatus:OCMOCK_ANY]);
+}
+
+- (void)testSuccessConfigureViewWithFeed
 {
     // given
     NSArray *feed = @[[ItemInfoModel new], [ItemInfoModel new]];
