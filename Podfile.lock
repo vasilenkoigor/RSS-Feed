@@ -35,6 +35,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - SVProgressHUD (2.0.3)
   - Typhoon (3.4.8):
     - Typhoon/no-arc (= 3.4.8)
   - Typhoon/no-arc (3.4.8)
@@ -46,6 +47,7 @@ DEPENDENCIES:
   - OCMock
   - RamblerTyphoonUtils/AssemblyTesting
   - ReactiveCocoa (= 2.5)
+  - SVProgressHUD
   - Typhoon
 
 EXTERNAL SOURCES:
@@ -64,6 +66,7 @@ SPEC CHECKSUMS:
   OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
   RamblerTyphoonUtils: 7c4c7a7e6fa569a38512a687f676a834de2bd311
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   Typhoon: f2390ad976bd1acaf5680b837781720faf5ff909
 
 COCOAPODS: 0.38.2
