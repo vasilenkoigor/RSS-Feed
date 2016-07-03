@@ -13,6 +13,7 @@
 #import "FeedModulePresenter.h"
 #import "FeedModuleRouter.h"
 #import "ServiceComponents.h"
+#import "FeedDataDisplayManager.h"
 
 @implementation FeedModuleAssembly
 
@@ -56,6 +57,11 @@
                               [definition injectProperty:@selector(transitionHandler)
                                                     with:[self viewFeedModuleModule]];
                           }];
+}
+
+- (FeedDataDisplayManager *)dataDisplayManager
+{
+    return [TyphoonDefinition withClass:[FeedDataDisplayManager class]];
 }
 
 @end

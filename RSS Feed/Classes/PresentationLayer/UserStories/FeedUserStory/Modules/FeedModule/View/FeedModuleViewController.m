@@ -9,6 +9,7 @@
 #import "FeedModuleViewController.h"
 
 #import "FeedModuleViewOutput.h"
+#import "FeedDataDisplayManager.h"
 
 @implementation FeedModuleViewController
 

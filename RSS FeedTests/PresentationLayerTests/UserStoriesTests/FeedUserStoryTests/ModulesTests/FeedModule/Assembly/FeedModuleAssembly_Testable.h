@@ -12,6 +12,7 @@
 @class FeedModuleInteractor;
 @class FeedModulePresenter;
 @class FeedModuleRouter;
+@class FeedDataDisplayManager;
 
 @interface FeedModuleAssembly ()
 
@@ -19,5 +20,6 @@
 - (FeedModulePresenter *)presenterFeedModuleModule;
 - (FeedModuleInteractor *)interactorFeedModuleModule;
 - (FeedModuleRouter *)routerFeedModuleModule;
+- (FeedDataDisplayManager *)dataDisplayManager;
 
 @end
