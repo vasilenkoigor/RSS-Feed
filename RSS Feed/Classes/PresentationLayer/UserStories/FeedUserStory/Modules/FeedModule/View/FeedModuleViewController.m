@@ -27,8 +27,16 @@
 
 - (void)setupInitialState
 {
+	self.refreshControl = [[UIRefreshControl alloc] init];
+	[self.refreshControl addTarget:self.output
+							action:@selector(didTriggerPullToRefreshEvent)
+				  forControlEvents:UIControlEventValueChanged];
+
 	self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 	[SVProgressHUD showWithStatus:@"Loading feed"];
+
+	self.tableView.delegate = [self.feedDataDisplayManager delegateForTableView:self.tableView
+														  baseTableViewDelegate:nil];
 }
 
 - (void)updateStateWithFeed:(NSArray <ItemInfoModel *> *)feed
@@ -36,18 +44,17 @@
 	[self.feedDataDisplayManager configureDataDisplayManagerWithFeed:feed];
 
 	self.tableView.dataSource = [self.feedDataDisplayManager dataSourceForTableView:self.tableView];
-	self.tableView.delegate = [self.feedDataDisplayManager delegateForTableView:self.tableView
-														  baseTableViewDelegate:nil];
 }
 
 - (void)initiateStartRefreshingFeedState
 {
-
+	[SVProgressHUD showWithStatus:@"Loading feed"];
 }
 
 - (void)stopRefreshingFeedState
 {
-
+	[self.refreshControl endRefreshing];
+	[SVProgressHUD dismiss];
 }
 
 - (void)showAlertWithTitle:(NSString *)title message:(NSString *)message

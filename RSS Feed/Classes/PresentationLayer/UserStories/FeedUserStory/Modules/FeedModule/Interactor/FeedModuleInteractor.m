@@ -24,12 +24,12 @@
     RACSignal *gazetaRssFeedSignal = [self.gazetaFeedService rac_requestRssFeed];
     RACSignal *lentaRssFeedSignal = [self.lentaFeedService rac_requestRssFeed];
 
-    [[[RACSignal combineLatest:@[gazetaRssFeedSignal, lentaRssFeedSignal]
-                        reduce:^id(NSArray <MWFeedItem *> *gazetaFeed, NSArray <MWFeedItem *> *lentaFeed) {
-                            return [self convertedRequestResultWithTuple:RACTuplePack(gazetaFeed, lentaFeed)];
-                        }] map:^id(NSArray <MWFeedItem *> *feedItems) {
+    [[[[RACSignal combineLatest:@[gazetaRssFeedSignal, lentaRssFeedSignal]
+                         reduce:^id(NSArray <MWFeedItem *> *gazetaFeed, NSArray <MWFeedItem *> *lentaFeed) {
+                             return [self convertedRequestResultWithTuple:RACTuplePack(gazetaFeed, lentaFeed)];
+                         }] map:^id(NSArray <MWFeedItem *> *feedItems) {
         return [self sortedFeedItemsByDate:feedItems];
-    }] subscribeNext:^(NSArray <ItemInfoModel *> *result) {
+    }] deliverOnMainThread] subscribeNext:^(NSArray <ItemInfoModel *> *result) {
         [self.output didLoadRssFeed:result error:nil];
     } error:^(NSError *error) {
         [self.output didLoadRssFeed:nil error:error];

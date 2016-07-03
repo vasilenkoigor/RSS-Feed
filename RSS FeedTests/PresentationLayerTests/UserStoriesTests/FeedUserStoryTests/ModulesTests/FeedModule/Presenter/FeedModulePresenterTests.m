@@ -80,7 +80,6 @@
     [self.presenter didTriggerPullToRefreshEvent];
 
     // then
-    OCMVerify([self.mockView initiateStartRefreshingFeedState]);
     OCMVerify([self.mockInteractor loadRssFeedFromAllServicesList]);
 }
 

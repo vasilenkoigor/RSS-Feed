@@ -29,9 +29,7 @@
 
 - (id <UITableViewDataSource>)dataSourceForTableView:(UITableView *)tableView
 {
-    if (!self.tableViewModel) {
-        self.tableViewModel = [self configureTableViewModel];
-    }
+    self.tableViewModel = [self configureTableViewModel];
     return self.tableViewModel;
 }
 

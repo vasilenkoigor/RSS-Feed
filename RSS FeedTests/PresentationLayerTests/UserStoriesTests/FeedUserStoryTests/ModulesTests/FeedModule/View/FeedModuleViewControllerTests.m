@@ -73,12 +73,17 @@
 
 - (void)testSuccessSetupInitialState
 {
+    // given
+    id delegate = OCMProtocolMock(@protocol(UITableViewDelegate));
+    OCMStub([self.mockDataDisplayManager delegateForTableView:self.mockTableView baseTableViewDelegate:nil]).andReturn(delegate);
+
     // when
     [self.controller setupInitialState];
 
     // then
     OCMVerify([self.mockTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone]);
     OCMVerify([SVProgressHUD showWithStatus:OCMOCK_ANY]);
+    OCMVerify([self.mockTableView setDelegate:delegate]);
 }
 
 - (void)testSuccessConfigureViewWithFeed
@@ -90,14 +95,12 @@
     id delegate = OCMProtocolMock(@protocol(UITableViewDelegate));
 
     OCMStub([self.mockDataDisplayManager dataSourceForTableView:self.mockTableView]).andReturn(dataSource);
-    OCMStub([self.mockDataDisplayManager delegateForTableView:self.mockTableView baseTableViewDelegate:nil]).andReturn(delegate);
 
     // when
     [self.controller updateStateWithFeed:feed];
 
     // then
     OCMVerify([self.mockTableView setDataSource:dataSource]);
-    OCMVerify([self.mockTableView setDelegate:delegate]);
     OCMVerify([self.mockDataDisplayManager configureDataDisplayManagerWithFeed:feed]);
 }
 
