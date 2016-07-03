@@ -17,7 +17,19 @@
 
 - (id <UITableViewDataSource>)dataSourceForTableView:(UITableView *)tableView
 {
-    return [[NITableViewModel alloc] init];
+    if (!self.tableViewModel) {
+        self.tableViewModel = [self configureTableViewModel];
+    }
+    return self.tableViewModel;
+}
+
+#pragma mark - Private
+
+- (NITableViewModel *)configureTableViewModel
+{
+    NITableViewModel *tableViewModel = [[NITableViewModel alloc] initWithListArray:self.cellObjects
+                                                                          delegate:(id)([NICellFactory class])];
+    return tableViewModel;
 }
 
 @end

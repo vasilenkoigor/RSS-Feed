@@ -2,393 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db712ed4-f69a-4aa3-8d9a-c61a0fc86c92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Protocols/DataDisplayManager/DataDisplayManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/EXTKeyPathCoding.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/EXTRuntimeExtensions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/EXTScope.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDynamicPropertySuperclass.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/ReactiveCocoa-Bridging-Header.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/metamacros.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Result.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/MKAnnotationView+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/MKAnnotationView+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSArray+RACSequenceAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSArray+RACSequenceAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSData+RACSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSData+RACSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSDictionary+RACSequenceAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSDictionary+RACSequenceAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSEnumerator+RACSequenceAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSEnumerator+RACSequenceAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSFileHandle+RACSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSFileHandle+RACSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSIndexSet+RACSequenceAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSIndexSet+RACSequenceAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSInvocation+RACTypeParsing.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSInvocation+RACTypeParsing.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSNotificationCenter+RACSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSNotificationCenter+RACSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDeallocating.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDeallocating.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACKVOWrapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACKVOWrapper.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACLifting.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACLifting.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACPropertySubscribing.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACPropertySubscribing.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACSelectorSignal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACSelectorSignal.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSOrderedSet+RACSequenceAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSOrderedSet+RACSequenceAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSSet+RACSequenceAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSSet+RACSequenceAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACKeyPathUtilities.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACKeyPathUtilities.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSequenceAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSequenceAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSURLConnection+RACSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSURLConnection+RACSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSUserDefaults+RACSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSUserDefaults+RACSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACArraySequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACArraySequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBehaviorSubject.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBehaviorSubject.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBlockTrampoline.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBlockTrampoline.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACChannel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACChannel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposable.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposableProvider.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDelegateProxy.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDelegateProxy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDisposable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDisposable.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicPropertySuperclass.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicPropertySuperclass.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSignal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSignal.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEagerSequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEagerSequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySignal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySignal.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACErrorSignal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACErrorSignal.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEvent.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEvent.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACGroupedSignal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACGroupedSignal.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACImmediateScheduler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACImmediateScheduler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACIndexSetSequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACIndexSetSequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOChannel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOChannel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOProxy.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOProxy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOTrampoline.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOTrampoline.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACMulticastConnection+Private.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACMulticastConnection.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACMulticastConnection.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACPassthroughSubscriber.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACPassthroughSubscriber.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler+Subclass.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReplaySubject.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReplaySubject.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReturnSignal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReturnSignal.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler+Private.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler+Subclass.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScopedDisposable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScopedDisposable.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSerialDisposable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSerialDisposable.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal+Operations.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal+Operations.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignalProvider.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignalSequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignalSequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream+Private.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStringSequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStringSequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubject.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubject.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber+Private.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptingAssignmentTrampoline.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptingAssignmentTrampoline.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptionScheduler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptionScheduler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTargetQueueScheduler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTargetQueueScheduler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTestScheduler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTestScheduler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTuple.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTuple.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTupleSequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTupleSequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnarySequence.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnarySequence.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnit.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnit.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACValueTransformer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACValueTransformer.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/ReactiveCocoa-Bridging-Header.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIActionSheet+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIActionSheet+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIAlertView+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIAlertView+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIButton+RACCommandSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIButton+RACCommandSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UICollectionReusableView+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UICollectionReusableView+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupportPrivate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupportPrivate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIDatePicker+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIDatePicker+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIGestureRecognizer+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIGestureRecognizer+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIImagePickerController+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIImagePickerController+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIRefreshControl+RACCommandSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIRefreshControl+RACCommandSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISegmentedControl+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISegmentedControl+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISlider+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISlider+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIStepper+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIStepper+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISwitch+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISwitch+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewCell+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewCell+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewHeaderFooterView+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewHeaderFooterView+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextField+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextField+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextView+RACSignalSupport.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextView+RACSignalSupport.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTKeyPathCoding.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTRuntimeExtensions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTRuntimeExtensions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTScope.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/metamacros.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Action.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Atomic.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Bag.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/CocoaAction.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Disposable.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/DynamicProperty.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Event.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/EventLogger.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Flatten.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/FoundationExtensions.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/ObjectiveCBridging.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Observer.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Optional.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Property.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Scheduler.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Signal.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/SignalProducer.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/TupleExtensions.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Result/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Result/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Result/Result/Result.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Result/Result/ResultType.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MWFeedParser/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nimbus/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nimbus/Nimbus-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nimbus/Nimbus.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/OCMock/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/OCMock/OCMock-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/OCMock/OCMock.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-frameworks.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-frameworks.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/RamblerTyphoonUtils/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/RamblerTyphoonUtils/RamblerTyphoonUtils-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/RamblerTyphoonUtils/RamblerTyphoonUtils.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Result/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Result/Result-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Result/Result-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Result/Result-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Result/Result-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Result/Result.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Result/Result.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.modulemap" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RSS-Feed.iml" afterPath="$PROJECT_DIR$/.idea/RSS-Feed.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/MKAnnotationView+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/MKAnnotationView+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSArray+RACSequenceAdditions.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSArray+RACSequenceAdditions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSData+RACSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSData+RACSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSDictionary+RACSequenceAdditions.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSDictionary+RACSequenceAdditions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSEnumerator+RACSequenceAdditions.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSEnumerator+RACSequenceAdditions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSFileHandle+RACSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSFileHandle+RACSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSIndexSet+RACSequenceAdditions.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSIndexSet+RACSequenceAdditions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSInvocation+RACTypeParsing.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSInvocation+RACTypeParsing.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSNotificationCenter+RACSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSNotificationCenter+RACSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACDeallocating.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACDeallocating.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACDescription.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACDescription.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACKVOWrapper.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACKVOWrapper.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACLifting.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACLifting.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACPropertySubscribing.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACPropertySubscribing.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACSelectorSignal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSObject+RACSelectorSignal.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSSet+RACSequenceAdditions.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSSet+RACSequenceAdditions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSString+RACKeyPathUtilities.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSString+RACKeyPathUtilities.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSString+RACSequenceAdditions.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSString+RACSequenceAdditions.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSString+RACSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSString+RACSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSURLConnection+RACSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSURLConnection+RACSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSUserDefaults+RACSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/NSUserDefaults+RACSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACArraySequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACArraySequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACBehaviorSubject.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACBehaviorSubject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACBlockTrampoline.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACBlockTrampoline.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACChannel.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACChannel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACCommand.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACCompoundDisposable.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACCompoundDisposable.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDelegateProxy.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDelegateProxy.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDisposable.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDisposable.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDynamicSequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDynamicSequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDynamicSignal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACDynamicSignal.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEagerSequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEagerSequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEmptySequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEmptySequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEmptySignal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEmptySignal.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACErrorSignal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACErrorSignal.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEvent.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACEvent.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACGroupedSignal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACGroupedSignal.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACImmediateScheduler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACImmediateScheduler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACIndexSetSequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACIndexSetSequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACKVOChannel.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACKVOChannel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACKVOProxy.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACKVOProxy.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACKVOTrampoline.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACKVOTrampoline.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACMulticastConnection+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACMulticastConnection+Private.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACMulticastConnection.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACMulticastConnection.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACPassthroughSubscriber.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACPassthroughSubscriber.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACQueueScheduler+Subclass.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACQueueScheduler+Subclass.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACQueueScheduler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACQueueScheduler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACReplaySubject.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACReplaySubject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACReturnSignal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACReturnSignal.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScheduler+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScheduler+Private.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScheduler+Subclass.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScheduler+Subclass.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScheduler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScheduler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScopedDisposable.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACScopedDisposable.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSerialDisposable.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSerialDisposable.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSignal+Operations.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSignal+Operations.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSignal.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSignal.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSignalSequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSignalSequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACStream+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACStream+Private.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACStream.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACStream.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACStringSequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACStringSequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubject.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriber+Private.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriber+Private.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriber.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriber.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriptionScheduler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACSubscriptionScheduler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTargetQueueScheduler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTargetQueueScheduler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTestScheduler.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTestScheduler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTuple.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTuple.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTupleSequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACTupleSequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACUnarySequence.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACUnarySequence.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACUnit.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACUnit.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACValueTransformer.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/RACValueTransformer.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIActionSheet+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIActionSheet+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIAlertView+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIAlertView+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIBarButtonItem+RACCommandSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIBarButtonItem+RACCommandSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIButton+RACCommandSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIButton+RACCommandSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UICollectionReusableView+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UICollectionReusableView+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIControl+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIControl+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIControl+RACSignalSupportPrivate.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIControl+RACSignalSupportPrivate.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIDatePicker+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIDatePicker+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIImagePickerController+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIImagePickerController+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIRefreshControl+RACCommandSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIRefreshControl+RACCommandSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UISegmentedControl+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UISegmentedControl+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UISlider+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UISlider+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIStepper+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UIStepper+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UISwitch+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UISwitch+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITableViewCell+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITableViewCell+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITextField+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITextField+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITextView+RACSignalSupport.h" afterPath="$PROJECT_DIR$/Pods/Headers/Private/ReactiveCocoa/UITextView+RACSignalSupport.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/MWFeedParser.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/MWFeedParser.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Nimbus.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Nimbus.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/OCMock.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/OCMock.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Pods-RSS FeedTests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Pods-RSS FeedTests.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Pods.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/RamblerTyphoonUtils.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/RamblerTyphoonUtils.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Typhoon.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/Typhoon.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/LICENSE.md" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/README.md" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h" afterPath="$PROJECT_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nimbus/Nimbus-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Nimbus/Nimbus-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/OCMock/OCMock-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/OCMock/OCMock-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/RamblerTyphoonUtils/RamblerTyphoonUtils-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RamblerTyphoonUtils/RamblerTyphoonUtils-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/RSS Feed.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.h" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" afterPath="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" />
     </list>
     <ignored path="RSS-Feed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -421,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedDataDisplayManagerTests.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeedDataDisplayManagerTests.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="245">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="e#160#185#0" expanded="true" />
               </folding>
@@ -433,14 +47,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedDataDisplayManager.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeedDataDisplayManager.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="52" />
               <folding>
                 <element signature="e#108#139#0" expanded="true" />
-                <marker date="1467544322000" expanded="true" signature="375:504" ph="..." />
               </folding>
             </state>
           </provider>
@@ -463,7 +76,6 @@
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#108#141#0" expanded="true" />
-                <marker date="1467544042000" expanded="true" signature="239:242" ph="..." />
               </folding>
             </state>
           </provider>
@@ -574,8 +186,8 @@
         <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.h" />
         <option value="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.h" />
-        <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" />
         <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m" />
       </list>
     </option>
   </component>
@@ -1181,9 +793,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_RSS_FeedTests - 2016.07.02 at 17h 37m 16s.xml">
-      <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
-    </history-entry>
     <history-entry file="All_in_RSS_FeedTests - 2016.07.02 at 21h 55m 20s.xml">
       <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
     </history-entry>
@@ -1211,6 +820,9 @@
     <history-entry file="All_in_RSS_FeedTests - 2016.07.03 at 14h 16m 01s.xml">
       <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
     </history-entry>
+    <history-entry file="All_in_RSS_FeedTests - 2016.07.03 at 14h 22m 06s.xml">
+      <configuration name="All in RSS FeedTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1229,7 +841,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29829547" sideWeight="0.45035744" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.45035744" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1606,17 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#108#141#0" expanded="true" />
-            <marker date="1467544042000" expanded="true" signature="239:242" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/RSS Feed-cvmuspjeebpufwamrpikjdwubsat/Build/Products/Debug-iphonesimulator/Nimbus.framework/Headers/NIMutableTableViewModel+Private.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-47">
@@ -1635,17 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#108#139#0" expanded="true" />
-            <marker date="1467544322000" expanded="true" signature="375:504" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Podfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1656,10 +1246,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="245">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="e#160#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#108#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/View/FeedDataDisplayManager/FeedDataDisplayManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="e#108#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
