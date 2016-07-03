@@ -18,6 +18,13 @@
 
 @implementation FeedDataDisplayManager
 
+#pragma mark - Public
+
+- (void)configureDataDisplayManagerWithFeed:(NSArray *)feed
+{
+    self.cellObjects = [self.feedCellObjectsBuilder cellObjectsForFeed:feed];
+}
+
 #pragma mark - DataDisplayManager protocol
 
 - (id <UITableViewDataSource>)dataSourceForTableView:(UITableView *)tableView

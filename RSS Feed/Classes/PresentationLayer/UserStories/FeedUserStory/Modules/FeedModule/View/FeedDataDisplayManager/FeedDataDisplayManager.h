@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) FeedCellObjectsBuilder *feedCellObjectsBuilder;
 
+- (void)configureDataDisplayManagerWithFeed:(NSArray *)feed;
+
 @end

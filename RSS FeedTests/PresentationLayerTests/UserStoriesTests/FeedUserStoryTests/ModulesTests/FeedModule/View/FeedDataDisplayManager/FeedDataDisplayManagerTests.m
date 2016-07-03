@@ -65,7 +65,7 @@
     NSArray *feed = @[[ItemInfoModel new]];
 
     // when
-    [self.feedDataDisplayManager configureDataDiplayManagerWithFeed:feed];
+    [self.feedDataDisplayManager configureDataDisplayManagerWithFeed:feed];
 
     // then
     OCMVerify([self.mockedFeedCellObjectsBuilder cellObjectsForFeed:OCMOCK_ANY]);
