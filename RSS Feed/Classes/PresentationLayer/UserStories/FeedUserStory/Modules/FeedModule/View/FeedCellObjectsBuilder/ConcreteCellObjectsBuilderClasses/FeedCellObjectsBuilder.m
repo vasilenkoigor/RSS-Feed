@@ -6,6 +6,7 @@
 #import "FeedCellObjectsBuilder.h"
 #import "ItemInfoModel.h"
 #import "FeedCellObject.h"
+#import "FeedCellSummaryObject.h"
 
 @implementation FeedCellObjectsBuilder
 
@@ -21,6 +22,29 @@
     }
 
     return mutableArray;
+}
+
+- (NSArray *)cellObjectsWithReplacedObjectCellClass:(id)object fromCellObjects:(NSArray *)cellObjects
+{
+    NSMutableArray *mutableArray = [NSMutableArray arrayWithArray:cellObjects];
+
+    if ([object isMemberOfClass:[FeedCellObject class]]) {
+        FeedCellObject *feedCellObject = object;
+        FeedCellSummaryObject *cellSummaryObject = [FeedCellSummaryObject objectWithTitle:feedCellObject.title
+                                                                                  summary:feedCellObject.summary
+                                                                                 imageUrl:feedCellObject.imageUrl];
+        NSUInteger index = [mutableArray indexOfObject:object];
+        mutableArray[index] = cellSummaryObject;
+        return [mutableArray copy];
+    } else {
+        FeedCellSummaryObject *feedCellObject = object;
+        FeedCellObject *cellSummaryObject = [FeedCellObject objectWithTitle:feedCellObject.title
+                                                                    summary:feedCellObject.summary
+                                                                   imageUrl:feedCellObject.imageUrl];
+        NSUInteger index = [mutableArray indexOfObject:object];
+        mutableArray[index] = cellSummaryObject;
+        return [mutableArray copy];
+    }
 }
 
 @end

@@ -11,6 +11,7 @@
 #import "OCMArg.h"
 #import "FeedCellObject.h"
 #import "FeedCellObjectsBuilder.h"
+#import "FeedCellSummaryObject.h"
 
 @interface FeedCellObjectsBuilderTests : XCTestCase
 
@@ -50,6 +51,18 @@
 
     // then
     XCTAssertEqual(expectedNumberOfItemsInFeed, actualNumberOfFeedCellObjects);
+}
+
+- (void)testThatFeedCellObjectBuilderCorrectReplacesClassOfCell
+{
+    // given
+    NSArray *feedArray = @[[FeedCellObject new], [FeedCellObject new], [FeedCellObject new]];
+
+    // when
+    NSArray *cellObjects = [self.feedCellObjectsBuilder cellObjectsWithReplacedObjectCellClass:[feedArray firstObject] fromCellObjects:feedArray];
+
+    // then
+    XCTAssertTrue([[cellObjects firstObject] isMemberOfClass:[FeedCellSummaryObject class]]);
 }
 
 @end

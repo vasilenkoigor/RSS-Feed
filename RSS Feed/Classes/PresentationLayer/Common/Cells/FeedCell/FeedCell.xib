@@ -21,9 +21,9 @@
                             <constraint firstAttribute="height" constant="50" id="g9T-sZ-ALE"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ui-Th-gyH">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ui-Th-gyH">
                         <rect key="frame" x="66" y="1" width="246" height="50"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -42,7 +42,7 @@
                 <outlet property="feedImageView" destination="HR0-74-UBC" id="93b-hM-CAc"/>
                 <outlet property="titleLabel" destination="6Ui-Th-gyH" id="mWh-c3-aqW"/>
             </connections>
-            <point key="canvasLocation" x="510" y="67"/>
+            <point key="canvasLocation" x="475" y="-29"/>
         </tableViewCell>
     </objects>
 </document>

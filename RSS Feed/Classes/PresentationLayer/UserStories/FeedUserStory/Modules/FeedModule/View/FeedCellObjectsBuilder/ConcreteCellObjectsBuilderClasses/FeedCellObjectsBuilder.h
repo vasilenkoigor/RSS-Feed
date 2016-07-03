@@ -9,4 +9,6 @@
 
 - (NSArray *)cellObjectsForFeed:(NSArray *)feed;
 
+- (NSArray *)cellObjectsWithReplacedObjectCellClass:(id)object fromCellObjects:(NSArray *)cellObjects;
+
 @end

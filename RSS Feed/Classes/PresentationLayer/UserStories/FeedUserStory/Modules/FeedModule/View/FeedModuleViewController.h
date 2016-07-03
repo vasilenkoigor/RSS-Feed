@@ -9,13 +9,18 @@
 #import <UIKit/UIKit.h>
 
 #import "FeedModuleViewInput.h"
+#import "FeedDataDisplayManager.h"
 
 @protocol FeedModuleViewOutput;
 @class FeedDataDisplayManager;
 
-@interface FeedModuleViewController : UITableViewController <FeedModuleViewInput>
+@interface FeedModuleViewController : UIViewController <FeedModuleViewInput, FeedDataDisplayManagerDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) UIRefreshControl *refreshControl;
 
 @property (nonatomic, strong) id<FeedModuleViewOutput> output;
+
 @property (nonatomic, strong) FeedDataDisplayManager *feedDataDisplayManager;
 
 @end

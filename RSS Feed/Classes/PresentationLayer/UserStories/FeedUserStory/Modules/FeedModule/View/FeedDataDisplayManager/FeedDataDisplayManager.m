@@ -7,6 +7,7 @@
 #import "FeedDataDisplayManager.h"
 #import "FeedCellObject.h"
 #import "FeedCellObjectsBuilder.h"
+#import "FeedCellSummaryObject.h"
 
 @interface FeedDataDisplayManager () <UITableViewDelegate>
 
@@ -41,6 +42,14 @@
     return [self.tableViewActions forwardingTo:self];
 }
 
+#pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGFloat height = [NICellFactory tableView:tableView heightForRowAtIndexPath:indexPath model:self.tableViewModel];
+    return height;
+}
+
 #pragma mark - Private
 
 - (void)configureTableViewActions
@@ -48,6 +57,10 @@
     self.tableViewActions = [[NITableViewActions alloc] initWithTarget:self];
 
     NIActionBlock feedItemActionBlock = ^BOOL(id object, UIViewController *controller, NSIndexPath *indexPath) {
+        self.cellObjects = [self.feedCellObjectsBuilder cellObjectsWithReplacedObjectCellClass:object
+                                                                               fromCellObjects:self.cellObjects];
+        self.tableViewModel = [self configureTableViewModel];
+        [self.delegate shouldReloadTableViewRowAtIndexPath:indexPath updatedDataSource:self.tableViewModel];
         return YES;
     };
     [self.tableViewActions attachToClass:[FeedCellObject class] tapBlock:feedItemActionBlock];

@@ -3,31 +3,34 @@
 // Copyright (c) 2016 Igor Vasilenko. All rights reserved.
 //
 
-#import "FeedCell.h"
-#import "FeedCellObject.h"
+#import "FeedCellSummary.h"
+#import "FeedCellSummaryObject.h"
 #import "UIImageView+AFNetworking.h"
 
-static NSInteger const FeedCellHeight = 50;
+static NSInteger const FeedCellSummaryHeight = 150;
 
-@interface FeedCell ()
+@interface FeedCellSummary ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *feedImageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
+
 
 @end
 
-@implementation FeedCell
+@implementation FeedCellSummary
 
-- (BOOL)shouldUpdateCellWithObject:(FeedCellObject *)object
+- (BOOL)shouldUpdateCellWithObject:(FeedCellSummaryObject *)object
 {
     self.titleLabel.text = object.title;
+    self.summaryLabel.text = object.summary;
     [self.feedImageView setImageWithURL:object.imageUrl];
     return YES;
 }
 
 + (CGFloat)heightForObject:(id)object atIndexPath:(NSIndexPath *)indexPath tableView:(UITableView *)tableView
 {
-    return FeedCellHeight;
+    return FeedCellSummaryHeight;
 }
 
 @end

@@ -8,9 +8,17 @@
 
 @class FeedCellObjectsBuilder;
 
+@protocol FeedDataDisplayManagerDelegate <NSObject>
+
+- (void)shouldReloadTableViewRowAtIndexPath:(NSIndexPath *)indexPath
+                          updatedDataSource:(id <UITableViewDataSource>)dataSource;
+
+@end
+
 @interface FeedDataDisplayManager : NSObject <DataDisplayManager>
 
 @property (strong, nonatomic) FeedCellObjectsBuilder *feedCellObjectsBuilder;
+@property (weak, nonatomic) id <FeedDataDisplayManagerDelegate> delegate;
 
 - (void)configureDataDisplayManagerWithFeed:(NSArray *)feed;
 
