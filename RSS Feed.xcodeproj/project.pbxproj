@@ -22,8 +22,10 @@
 		74AD32E08A1E2B421C32D3E6 /* ItemInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3720A674B9B96B736E92 /* ItemInfoModel.m */; };
 		74AD34220AEF421825B05F04 /* FeedCellObjectsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3BC5F6DBFA57D9F24FB1 /* FeedCellObjectsBuilder.m */; };
 		74AD34B65E1DCEA63C2D6460 /* FeedDataDisplayManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD32B56008D2A19681E7C2 /* FeedDataDisplayManagerTests.m */; };
+		74AD3539562029D364C9624F /* CellObjectsBuilderFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD33B1423DB13CB5362F41 /* CellObjectsBuilderFactoryTests.m */; };
 		74AD367EBA82EC49108BE794 /* FeedDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3BB8FE1591D0EDA296D3 /* FeedDataDisplayManager.m */; };
 		74AD37191F42309474472EC8 /* NetwokClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3C514FF169F66C50F651 /* NetwokClientTest.m */; };
+		74AD375E71F4CBA68E3E4E6A /* FeedModuleAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD300EC5D239E3F224EB91 /* FeedModuleAssemblyTests.m */; };
 		74AD3882AFFF006E0AF21E3A /* FeedCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3CB81CC1B8C8E8097193 /* FeedCellObject.m */; };
 		74AD38A0E7DF033AC2618078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD3F0A4173D41E13C11CD2 /* LaunchScreen.storyboard */; };
 		74AD38E211AA13C1C7B207CD /* ServiceComponentsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */; };
@@ -44,7 +46,6 @@
 		B74143061D2936CC00E206D1 /* ItemInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3720A674B9B96B736E92 /* ItemInfoModel.m */; };
 		B7D10A3A1D226F8300AF06D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D10A391D226F8300AF06D6 /* main.m */; };
 		B7D10A531D226F8300AF06D6 /* RSS_FeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D10A521D226F8300AF06D6 /* RSS_FeedTests.m */; };
-		CC85B54510FCAC178BB30884 /* FeedModuleAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC6F78DA0F407C060BB3EA /* FeedModuleAssemblyTests.m */; };
 		D2AFEBE1A9BC9A26C753CB8C /* FeedModuleRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A70710A0F6F7F1EF71954 /* FeedModuleRouterTests.m */; };
 		DD3FA854EC6AF2DA39AC4600 /* FeedModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B3B6B732E4A37AF262C235 /* FeedModuleRouter.m */; };
 		E663381FE137D111AA80D202 /* FeedModulePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D8E91A095C48F9E7B9FA1 /* FeedModulePresenter.m */; };
@@ -62,7 +63,6 @@
 
 /* Begin PBXFileReference section */
 		04AD62ADBDC9C85BF84B176D /* FeedModuleModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedModuleModuleInput.h; sourceTree = "<group>"; };
-		04CC6F78DA0F407C060BB3EA /* FeedModuleAssemblyTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FeedModuleAssemblyTests.m; sourceTree = "<group>"; };
 		06C433DB636D1472EBF77541 /* FeedModuleAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedModuleAssembly.h; sourceTree = "<group>"; };
 		11AD571C812B8A62B253F974 /* FeedModuleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FeedModuleViewController.m; sourceTree = "<group>"; };
 		120301F6AC4CB602122D11E1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,15 +76,18 @@
 		503AF0EEA3AB0AC7C90CF54E /* FeedModuleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedModuleViewController.h; sourceTree = "<group>"; };
 		64C08E3FA4A0F230F8E4621C /* FeedModuleInteractorTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FeedModuleInteractorTests.m; sourceTree = "<group>"; };
 		6FCC7E13E10F8486D047A852 /* Pods-RSS FeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSS FeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74AD300EC5D239E3F224EB91 /* FeedModuleAssemblyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedModuleAssemblyTests.m; sourceTree = "<group>"; };
 		74AD305619CB115E9EBEF1CD /* CommonNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNetworkClient.h; sourceTree = "<group>"; };
 		74AD30C1F35B0A0E1D0F3A0F /* NetworkClientsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsFactory.h; sourceTree = "<group>"; };
 		74AD3175B5C5274AEED1ED06 /* ServiceComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponents.h; sourceTree = "<group>"; };
+		74AD319D5A11CCCCD5C83744 /* FeedModuleAssembly_Testable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedModuleAssembly_Testable.h; sourceTree = "<group>"; };
 		74AD3258DB5624027405BCA8 /* ModuleAssemblyBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAssemblyBase.m; sourceTree = "<group>"; };
 		74AD32B56008D2A19681E7C2 /* FeedDataDisplayManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDataDisplayManagerTests.m; sourceTree = "<group>"; };
 		74AD32ED1533B1D999D48D83 /* FeedDataDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDataDisplayManager.h; sourceTree = "<group>"; };
 		74AD32F6223A41771972EBA9 /* DataDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDisplayManager.h; sourceTree = "<group>"; };
 		74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNetworkClient.m; sourceTree = "<group>"; };
 		74AD33447B9208C7A514EBC6 /* VASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASAppDelegate.h; sourceTree = "<group>"; };
+		74AD33B1423DB13CB5362F41 /* CellObjectsBuilderFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellObjectsBuilderFactoryTests.m; sourceTree = "<group>"; };
 		74AD3413EF099C22667205DB /* FeedCellObjectsBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCellObjectsBuilder.h; sourceTree = "<group>"; };
 		74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = ServiceComponentsURLs.plist; sourceTree = "<group>"; };
 		74AD356F2649FD6F190C598D /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
@@ -111,6 +114,7 @@
 		74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceComponentsAssemblyTest.m; sourceTree = "<group>"; };
 		74AD3C514FF169F66C50F651 /* NetwokClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetwokClientTest.m; sourceTree = "<group>"; };
 		74AD3CB81CC1B8C8E8097193 /* FeedCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCellObject.m; sourceTree = "<group>"; };
+		74AD3CD44304B06730FA4058 /* CellObjectsBuilderFactory_Testable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellObjectsBuilderFactory_Testable.h; sourceTree = "<group>"; };
 		74AD3CE32DDB7ACDAB59B394 /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
 		74AD3CE43F46A53F01BCE51F /* NetworkClientsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsAssembly.h; sourceTree = "<group>"; };
 		74AD3D2497602CE5CE9D38D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "RSS Feed/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
@@ -123,7 +127,6 @@
 		89C45FF9C5922EEFDCBC4D97 /* Pods-RSS FeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSS FeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSS FeedTests/Pods-RSS FeedTests.release.xcconfig"; sourceTree = "<group>"; };
 		96A68A8EBE48200EF5C520B4 /* FeedModuleRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedModuleRouterInput.h; sourceTree = "<group>"; };
 		9D27D4DFB5580B63C680C4D0 /* FeedModulePresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedModulePresenter.h; sourceTree = "<group>"; };
-		B6364796464FD46CA63EF9A3 /* FeedModuleAssembly_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedModuleAssembly_Testable.h; sourceTree = "<group>"; };
 		B7D10A351D226F8300AF06D6 /* RSS Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSS Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D10A391D226F8300AF06D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7D10A4E1D226F8300AF06D6 /* RSS FeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSS FeedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,6 +265,15 @@
 				74AD33B5C28DCA62CEB32350 /* FeedUserStory */,
 			);
 			path = UserStories;
+			sourceTree = "<group>";
+		};
+		74AD313BC42A545547C35C55 /* FeedCellObjectsBuilderFactory */ = {
+			isa = PBXGroup;
+			children = (
+				74AD33B1423DB13CB5362F41 /* CellObjectsBuilderFactoryTests.m */,
+				74AD3CD44304B06730FA4058 /* CellObjectsBuilderFactory_Testable.h */,
+			);
+			path = FeedCellObjectsBuilderFactory;
 			sourceTree = "<group>";
 		};
 		74AD315B901332E59FBCDCD4 /* FeedCellObject */ = {
@@ -613,6 +625,15 @@
 			path = ConcreteClasses;
 			sourceTree = "<group>";
 		};
+		74AD3D405A18F64269EB4C37 /* FeedModuleAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				74AD300EC5D239E3F224EB91 /* FeedModuleAssemblyTests.m */,
+				74AD319D5A11CCCCD5C83744 /* FeedModuleAssembly_Testable.h */,
+			);
+			path = FeedModuleAssembly;
+			sourceTree = "<group>";
+		};
 		74AD3D7367BB81AF017EC755 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -835,8 +856,8 @@
 		FCE037E6A56BB2C0C1979CD9 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				04CC6F78DA0F407C060BB3EA /* FeedModuleAssemblyTests.m */,
-				B6364796464FD46CA63EF9A3 /* FeedModuleAssembly_Testable.h */,
+				74AD3D405A18F64269EB4C37 /* FeedModuleAssembly */,
+				74AD313BC42A545547C35C55 /* FeedCellObjectsBuilderFactory */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -1044,7 +1065,6 @@
 				B74143051D27BD8500E206D1 /* ServiceComponentsAssembly.m in Sources */,
 				B74143041D27B44400E206D1 /* FeedServiceTests.m in Sources */,
 				74AD31999D4AD057ED2D328F /* ServiceComponentsAssemblyTest.m in Sources */,
-				CC85B54510FCAC178BB30884 /* FeedModuleAssemblyTests.m in Sources */,
 				15CABC0FF76A2AC8134AC28E /* FeedModuleViewControllerTests.m in Sources */,
 				3BF7423F72F7337B0C171934 /* FeedModulePresenterTests.m in Sources */,
 				5C6713678BABF4A7CDBFE0D2 /* FeedModuleInteractorTests.m in Sources */,
@@ -1052,6 +1072,8 @@
 				74AD34B65E1DCEA63C2D6460 /* FeedDataDisplayManagerTests.m in Sources */,
 				B74143061D2936CC00E206D1 /* ItemInfoModel.m in Sources */,
 				74AD392DE3CD993785666A31 /* FeedCellObjectsBuilderTests.m in Sources */,
+				74AD375E71F4CBA68E3E4E6A /* FeedModuleAssemblyTests.m in Sources */,
+				74AD3539562029D364C9624F /* CellObjectsBuilderFactoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
