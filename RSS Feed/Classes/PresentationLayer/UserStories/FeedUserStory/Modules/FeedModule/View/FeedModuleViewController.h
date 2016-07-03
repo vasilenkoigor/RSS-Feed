@@ -11,9 +11,11 @@
 #import "FeedModuleViewInput.h"
 
 @protocol FeedModuleViewOutput;
+@class FeedDataDisplayManager;
 
 @interface FeedModuleViewController : UITableViewController <FeedModuleViewInput>
 
 @property (nonatomic, strong) id<FeedModuleViewOutput> output;
+@property (nonatomic, strong) FeedDataDisplayManager *feedDataDisplayManager;
 
 @end

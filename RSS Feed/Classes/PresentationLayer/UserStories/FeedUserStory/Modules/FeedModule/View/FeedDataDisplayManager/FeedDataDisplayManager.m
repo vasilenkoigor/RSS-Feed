@@ -6,6 +6,7 @@
 #import <Nimbus/NimbusModels.h>
 #import "FeedDataDisplayManager.h"
 #import "FeedCellObject.h"
+#import "FeedCellObjectsBuilder.h"
 
 @interface FeedDataDisplayManager () <UITableViewDelegate>
 

@@ -60,7 +60,8 @@
             @protocol(FeedModuleViewInput)
     ];
     NSArray *dependencies = @[
-            RamblerSelector(output)
+            RamblerSelector(output),
+            RamblerSelector(feedDataDisplayManager)
     ];
 
     // when
@@ -148,6 +149,7 @@
     // given
     Class targetClass = [FeedDataDisplayManager class];
     NSArray *protocols = @[@protocol(DataDisplayManager)];
+    NSArray *dependencies = @[RamblerSelector(feedCellObjectsBuilder)];
 
     // when
     id result = [self.assembly dataDisplayManager];
@@ -156,7 +158,7 @@
     RamblerTyphoonAssemblyTestsTypeDescriptor *descriptor = [RamblerTyphoonAssemblyTestsTypeDescriptor descriptorWithClass:targetClass andProtocols:protocols];
     [self verifyTargetDependency:result
                   withDescriptor:descriptor
-                    dependencies:nil];
+                    dependencies:dependencies];
 }
 
 @end

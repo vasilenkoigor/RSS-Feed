@@ -6,7 +6,10 @@
 #import <Foundation/Foundation.h>
 #import "DataDisplayManager.h"
 
+@class FeedCellObjectsBuilder;
+
 @interface FeedDataDisplayManager : NSObject <DataDisplayManager>
 
+@property (strong, nonatomic) FeedCellObjectsBuilder *feedCellObjectsBuilder;
 
 @end
