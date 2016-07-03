@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Nimbus/NICellFactory.h>
+#import <Nimbus/NimbusModels.h>
 
 @interface FeedCellObject : NSObject <NICellObject>
 

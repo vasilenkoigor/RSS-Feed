@@ -28,9 +28,13 @@ PODS:
     - Nimbus/Core
   - OCMock (3.3.1)
   - RamblerTyphoonUtils/AssemblyTesting (1.3.1)
-  - ReactiveCocoa (4.2.1):
-    - Result (~> 2.0)
-  - Result (2.1.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - Typhoon (3.4.8):
     - Typhoon/no-arc (= 3.4.8)
   - Typhoon/no-arc (3.4.8)
@@ -41,7 +45,7 @@ DEPENDENCIES:
   - Nimbus/Models (from `https://github.com/rambler-ios/nimbus`)
   - OCMock
   - RamblerTyphoonUtils/AssemblyTesting
-  - ReactiveCocoa
+  - ReactiveCocoa (= 2.5)
   - Typhoon
 
 EXTERNAL SOURCES:
@@ -59,8 +63,7 @@ SPEC CHECKSUMS:
   Nimbus: 355131d4656498bf072fecc142752a9f343eb59b
   OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
   RamblerTyphoonUtils: 7c4c7a7e6fa569a38512a687f676a834de2bd311
-  ReactiveCocoa: 5a42745f11ea236f405bb9ce5e97c5e3b23562dd
-  Result: 6e722d4a66b1408680dbfcdf51c0b1c4b706316a
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   Typhoon: f2390ad976bd1acaf5680b837781720faf5ff909
 
 COCOAPODS: 0.38.2

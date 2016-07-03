@@ -44,11 +44,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Result.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Typhoon.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -56,57 +51,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>05AB461630E31C12C8286646C30966DD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>10D3AF2C5C98A374E8DDA9689BFCFE06</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>15286EF1D19812A859BA370DFDE06A9D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3F5E486603CB6103812C550AAB173E44</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>41198BE23F2B0936F730D0E9AC2D4605</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4F2C778492550541DFC03455722F326F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5A8EC9C371CD7D52A0893934E4E07A2A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>811E69C2A24362B347DF1499D6472DFA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D02E08439589872996252F4061652195</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E53F13D4C062AD51FB39B3EDE898818A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

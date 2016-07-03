@@ -1,9 +1,8 @@
 platform :ios, '9.3'
 inhibit_all_warnings!
-use_frameworks!
 
 pod 'AFNetworking'
-pod 'ReactiveCocoa'
+pod 'ReactiveCocoa', '2.5'
 pod 'Typhoon'
 pod 'MWFeedParser'
 pod 'Nimbus/Models', :git => 'https://github.com/rambler-ios/nimbus'
