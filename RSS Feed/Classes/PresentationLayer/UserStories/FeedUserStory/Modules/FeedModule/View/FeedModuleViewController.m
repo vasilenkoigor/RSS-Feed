@@ -27,12 +27,9 @@
 
 - (void)setupInitialState
 {
-	self.refreshControl = [[UIRefreshControl alloc] init];
-	[self.refreshControl addTarget:self.output
-							action:@selector(didTriggerPullToRefreshEvent)
-				  forControlEvents:UIControlEventValueChanged];
-
-	self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+	[self setupNavigationBarInitialConfiguration];
+	[self setupViewInitialConfiguration];
+	
 	[SVProgressHUD showWithStatus:@"Loading feed"];
 
 	self.tableView.delegate = [self.feedDataDisplayManager delegateForTableView:self.tableView
@@ -44,6 +41,7 @@
 	[self.feedDataDisplayManager configureDataDisplayManagerWithFeed:feed];
 
 	self.tableView.dataSource = [self.feedDataDisplayManager dataSourceForTableView:self.tableView];
+	[self.tableView reloadData];
 }
 
 - (void)initiateStartRefreshingFeedState
@@ -70,6 +68,25 @@
 	[self presentViewController:alertController
 					   animated:YES
 					 completion:NULL];
+}
+
+#pragma mark - Private
+
+- (void)setupViewInitialConfiguration
+{
+	self.title = @"RSS Feed";
+
+	self.refreshControl = [[UIRefreshControl alloc] init];
+	[self.refreshControl addTarget:self.output
+							action:@selector(didTriggerPullToRefreshEvent)
+				  forControlEvents:UIControlEventValueChanged];
+
+	self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+}
+
+- (void)setupNavigationBarInitialConfiguration
+{
+	self.navigationController.navigationBar.translucent = NO;
 }
 
 @end
