@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db712ed4-f69a-4aa3-8d9a-c61a0fc86c92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed.xcworkspace/xcuserdata/igorvasilenko.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/RSS Feed.xcworkspace/xcuserdata/igorvasilenko.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RSS-Feed.iml" afterPath="$PROJECT_DIR$/.idea/RSS-Feed.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/igorvasilenko.xcuserdatad/xcschemes/xcschememanagement.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/RSS Feed.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.h" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.m" afterPath="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.m" />
     </list>
     <ignored path="RSS-Feed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +60,7 @@
       <file leaf-file-name="FeedCellObject.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="255">
               <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="e#108#134#0" expanded="true" />
@@ -73,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedCell.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeedDataDisplayManagerTests.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="64" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedCell.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#108#128#0" expanded="true" />
               </folding>
@@ -129,16 +135,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedModulePresenter.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Presenter/FeedModulePresenter.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -147,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RSS Feed/Classes/ApplicationLayer/AppDelegate/AppDelegate.h" />
-        <option value="$PROJECT_DIR$/RSS Feed/Classes/ApplicationLayer/AppDelegate/VASAppDelegate.h" />
         <option value="$PROJECT_DIR$/RSS Feed/main.m" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/CommonNetworkClient.h" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/Assemblies/NetworkClientsFactory/NetworkClientsFactory.h" />
@@ -198,6 +192,8 @@
         <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.h" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.m" />
         <option value="$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.m" />
+        <option value="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManager.m" />
+        <option value="$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m" />
       </list>
     </option>
   </component>
@@ -247,6 +243,82 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="RSS Feed" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS FeedTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS Feed" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS FeedTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PresentationLayerTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserStoriesTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FeedUserStoryTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModulesTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FeedModule" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS Feed" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS FeedTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PresentationLayerTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserStoriesTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FeedUserStoryTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModulesTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FeedModule" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FeedDataDisplayManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -352,18 +424,6 @@
               <option name="myItemId" value="PresentationLayer" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cells" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FeedCell" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -382,22 +442,6 @@
               <option name="myItemId" value="Classes" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PresentationLayer" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CellObjects" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FeedCellObject" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -407,36 +451,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="RSS Feed" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RSS Feed" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PresentationLayer" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RSS Feed" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RSS Feed" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -716,13 +730,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/CoreLayer/CoreComponents/NetworkClients/ConcreteClasses/CommonNetworkClient/Protocols/NetworkClient.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/UserStories/FeedUserStory/Modules/FeedModule/Assembly/FeedModuleAssembly.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1074,12 +1081,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.m">
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#108#134#0" expanded="true" />
+            <element signature="e#108#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#108#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1094,23 +1111,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.h">
+    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/CellObjects/FeedCellObject/FeedCellObject.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
-            <element signature="e#108#141#0" expanded="true" />
+            <element signature="e#108#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSS Feed/Classes/PresentationLayer/Common/Cells/FeedCell/FeedCell.m">
+    <entry file="file://$PROJECT_DIR$/RSS FeedTests/PresentationLayerTests/UserStoriesTests/FeedUserStoryTests/ModulesTests/FeedModule/FeedDataDisplayManager/FeedDataDisplayManagerTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#108#128#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>

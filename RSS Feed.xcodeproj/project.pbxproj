@@ -16,6 +16,7 @@
 		74AD30847B9227A2610EC74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD3AD2F69EADBC1E574CD5 /* Assets.xcassets */; };
 		74AD3098B8F9D8780DE08D9D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD30812EF6D02F27E4B116 /* Feed.storyboard */; };
 		74AD30C3D54053FAF8D1981E /* ModuleAssemblyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3258DB5624027405BCA8 /* ModuleAssemblyBase.m */; };
+		74AD31467044CC2ED75CF192 /* FeedDataDisplayManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD392F63E667129B4F6FA0 /* FeedDataDisplayManagerTests.m */; };
 		74AD31999D4AD057ED2D328F /* ServiceComponentsAssemblyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */; };
 		74AD32A7442CD9DDB3935728 /* VASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD38C8394A38B3A524E741 /* VASAppDelegate.m */; };
 		74AD32E08A1E2B421C32D3E6 /* ItemInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3720A674B9B96B736E92 /* ItemInfoModel.m */; };
@@ -88,6 +89,7 @@
 		74AD381B6125FF0558B9E952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "RSS Feed/Base.lproj/Feed.storyboard"; sourceTree = SOURCE_ROOT; };
 		74AD38808EACE9C0CC4997D3 /* StringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringConstants.h; sourceTree = "<group>"; };
 		74AD38C8394A38B3A524E741 /* VASAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VASAppDelegate.m; sourceTree = "<group>"; };
+		74AD392F63E667129B4F6FA0 /* FeedDataDisplayManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDataDisplayManagerTests.m; sourceTree = "<group>"; };
 		74AD3931C9BE32E6720C1D0D /* FeedServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedServiceImpl.m; sourceTree = "<group>"; };
 		74AD39C5BB3681B6EE692000 /* FeedServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedServiceImpl.h; sourceTree = "<group>"; };
 		74AD3A93A83007032E64A990 /* FeedCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCellObject.h; sourceTree = "<group>"; };
@@ -256,6 +258,14 @@
 				74AD33B5C28DCA62CEB32350 /* FeedUserStory */,
 			);
 			path = UserStories;
+			sourceTree = "<group>";
+		};
+		74AD3132F1321496B93E8A5D /* FeedDataDisplayManager */ = {
+			isa = PBXGroup;
+			children = (
+				74AD392F63E667129B4F6FA0 /* FeedDataDisplayManagerTests.m */,
+			);
+			path = FeedDataDisplayManager;
 			sourceTree = "<group>";
 		};
 		74AD315B901332E59FBCDCD4 /* FeedCellObject */ = {
@@ -727,6 +737,7 @@
 				D5FEE8916B47A2A016716C68 /* Presenter */,
 				2E3B728DB9D162B398705131 /* Interactor */,
 				B1B38CFB1539E0239A3084CC /* Router */,
+				74AD3132F1321496B93E8A5D /* FeedDataDisplayManager */,
 			);
 			name = FeedModule;
 			path = FeedModule;
@@ -1030,6 +1041,7 @@
 				3BF7423F72F7337B0C171934 /* FeedModulePresenterTests.m in Sources */,
 				5C6713678BABF4A7CDBFE0D2 /* FeedModuleInteractorTests.m in Sources */,
 				D2AFEBE1A9BC9A26C753CB8C /* FeedModuleRouterTests.m in Sources */,
+				74AD31467044CC2ED75CF192 /* FeedDataDisplayManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
