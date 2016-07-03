@@ -16,6 +16,9 @@
 #import "FeedModulePresenter.h"
 #import "FeedModuleInteractor.h"
 #import "FeedModuleRouter.h"
+#import "ServiceComponentsAssembly.h"
+#import "NetworkClientsAssembly.h"
+#import "FeedDataDisplayManager.h"
 
 @interface FeedModuleAssemblyTests : RamblerTyphoonAssemblyTests
 
@@ -32,7 +35,12 @@
     [super setUp];
 
     self.assembly = [[FeedModuleAssembly alloc] init];
-    [self.assembly activate];
+    [self.assembly activateWithCollaboratingAssemblies:
+            @[
+                    [ServiceComponentsAssembly new],
+                    [NetworkClientsAssembly assembly]
+            ]
+    ];
 }
 
 - (void)tearDown
@@ -123,9 +131,6 @@
     NSArray *protocols = @[
             @protocol(FeedModuleRouterInput)
     ];
-    NSArray *dependencies = @[
-            RamblerSelector(transitionHandler)
-    ];
 
     // when
     id result = [self.assembly routerFeedModuleModule];
@@ -135,7 +140,23 @@
                                                                                                               andProtocols:protocols];
     [self verifyTargetDependency:result
                   withDescriptor:descriptor
-                    dependencies:dependencies];
+                    dependencies:nil];
+}
+
+- (void)testThatAssemblyCreatesDataDisplayManager
+{
+    // given
+    Class targetClass = [FeedDataDisplayManager class];
+    NSArray *protocols = @[@protocol(DataDisplayManager)];
+
+    // when
+    id result = [self.assembly dataDisplayManager];
+
+    // then
+    RamblerTyphoonAssemblyTestsTypeDescriptor *descriptor = [RamblerTyphoonAssemblyTestsTypeDescriptor descriptorWithClass:targetClass andProtocols:protocols];
+    [self verifyTargetDependency:result
+                  withDescriptor:descriptor
+                    dependencies:nil];
 }
 
 @end

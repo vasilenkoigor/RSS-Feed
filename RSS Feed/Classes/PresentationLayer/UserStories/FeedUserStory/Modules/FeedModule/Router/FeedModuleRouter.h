@@ -12,6 +12,6 @@
 
 @interface FeedModuleRouter : NSObject <FeedModuleRouterInput>
 
-@property (nonatomic, weak) id<RamblerViperModuleTransitionHandlerProtocol> transitionHandler;
+@property (nonatomic, weak) id <RamblerViperModuleTransitionHandlerProtocol> transitionHandler;
 
 @end
