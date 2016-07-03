@@ -5,6 +5,7 @@
 
 #import "FeedCell.h"
 #import "FeedCellObject.h"
+#import "UIImageView+AFNetworking.h"
 
 static NSInteger const FeedCellHeight = 52;
 
@@ -20,7 +21,7 @@ static NSInteger const FeedCellHeight = 52;
 - (BOOL)shouldUpdateCellWithObject:(FeedCellObject *)object
 {
     self.titleLabel.text = object.title;
-    self.feedImageView.image = object.image;
+    [self.feedImageView setImageWithURL:object.imageUrl];
     return YES;
 }
 

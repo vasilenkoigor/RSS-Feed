@@ -10,10 +10,10 @@
 
 @property (copy, nonatomic, readonly) NSString *title;
 @property (copy, nonatomic, readonly) NSString *summary;
-@property (strong, nonatomic, readonly) UIImage *image;
+@property (strong, nonatomic, readonly) NSURL *imageUrl;
 
 + (instancetype)objectWithTitle:(NSString *)title
                         summary:(NSString *)summary
-                          image:(UIImage *)image;
+                       imageUrl:(NSURL *)imageUrl;
 
 @end

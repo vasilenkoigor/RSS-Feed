@@ -10,24 +10,24 @@
 
 - (instancetype)initWithTitle:(NSString *)title
                       summary:(NSString *)summary
-                        image:(UIImage *)image
+                     imageUrl:(NSURL *)imageUrl
 {
     self = [super init];
     if (self) {
         _title = title;
         _summary = summary;
-        _image = image;
+        _imageUrl = imageUrl;
     }
     return self;
 }
 
 + (instancetype)objectWithTitle:(NSString *)title
                         summary:(NSString *)summary
-                          image:(UIImage *)image
+                       imageUrl:(NSURL *)imageUrl
 {
     return [[self alloc] initWithTitle:title
                                summary:summary
-                                 image:image];
+                              imageUrl:imageUrl];
 }
 
 #pragma mark - NICellObject protocol implementation
