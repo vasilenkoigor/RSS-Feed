@@ -24,7 +24,7 @@
 		74AD38E211AA13C1C7B207CD /* ServiceComponentsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */; };
 		74AD3A792AD9811AA814E780 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3AF5EDFBFD157BA60C17 /* FeedServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3931C9BE32E6720C1D0D /* FeedServiceImpl.m */; };
-		74AD3B640F50707C57990970 /* StringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD31D7A9ACA0F6BA7857B5 /* StringConstants.m */; };
+		74AD3AFB38BC86D45B4EFA46 /* StringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD35CD729D0D5C7807D4ED /* StringConstants.m */; };
 		74AD3C42770D18773D372293 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3C688D6D7C6C92BC055C /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F83A763F7B8E8BEB50B /* ServiceComponentsAssembly.m */; };
 		74AD3DAE71EA33FA63C5508A /* UITableView+VASCellNibRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F7578FB6262547EFEE9 /* UITableView+VASCellNibRegistration.m */; };
@@ -71,19 +71,19 @@
 		74AD305619CB115E9EBEF1CD /* CommonNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNetworkClient.h; sourceTree = "<group>"; };
 		74AD30C1F35B0A0E1D0F3A0F /* NetworkClientsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsFactory.h; sourceTree = "<group>"; };
 		74AD3175B5C5274AEED1ED06 /* ServiceComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponents.h; sourceTree = "<group>"; };
-		74AD31D7A9ACA0F6BA7857B5 /* StringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringConstants.m; sourceTree = SOURCE_ROOT; };
 		74AD3258DB5624027405BCA8 /* ModuleAssemblyBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAssemblyBase.m; sourceTree = "<group>"; };
 		74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNetworkClient.m; sourceTree = "<group>"; };
 		74AD33447B9208C7A514EBC6 /* VASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASAppDelegate.h; sourceTree = "<group>"; };
 		74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = ServiceComponentsURLs.plist; sourceTree = "<group>"; };
 		74AD357A46D4BA4A155CD313 /* ServiceComponentsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponentsAssembly.h; sourceTree = "<group>"; };
+		74AD35CD729D0D5C7807D4ED /* StringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringConstants.m; sourceTree = "<group>"; };
 		74AD35ECFC537C6F7D36B528 /* FeedServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedServiceTests.m; sourceTree = "<group>"; };
 		74AD36A0E7129B0DD159CCA8 /* ItemInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemInfoModel.h; sourceTree = "<group>"; };
 		74AD3720A674B9B96B736E92 /* ItemInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemInfoModel.m; sourceTree = "<group>"; };
 		74AD37F38C92EA855931425A /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
 		74AD381B6125FF0558B9E952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "RSS Feed/Base.lproj/Feed.storyboard"; sourceTree = SOURCE_ROOT; };
+		74AD38808EACE9C0CC4997D3 /* StringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringConstants.h; sourceTree = "<group>"; };
 		74AD38C8394A38B3A524E741 /* VASAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VASAppDelegate.m; sourceTree = "<group>"; };
-		74AD38F25E411E7BEDDF2AEF /* StringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringConstants.h; sourceTree = SOURCE_ROOT; };
 		74AD3931C9BE32E6720C1D0D /* FeedServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedServiceImpl.m; sourceTree = "<group>"; };
 		74AD39C5BB3681B6EE692000 /* FeedServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedServiceImpl.h; sourceTree = "<group>"; };
 		74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssembly.m; sourceTree = "<group>"; };
@@ -250,6 +250,15 @@
 			path = UserStories;
 			sourceTree = "<group>";
 		};
+		74AD31835FE0AAD90762830F /* StringConstants */ = {
+			isa = PBXGroup;
+			children = (
+				74AD35CD729D0D5C7807D4ED /* StringConstants.m */,
+				74AD38808EACE9C0CC4997D3 /* StringConstants.h */,
+			);
+			path = StringConstants;
+			sourceTree = "<group>";
+		};
 		74AD320E8352B51323302113 /* BusinessLogicLayerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,14 +266,6 @@
 				74AD37E5A2CEF7C76CD1F265 /* ConcreteServicesTests */,
 			);
 			path = BusinessLogicLayerTests;
-			sourceTree = "<group>";
-		};
-		74AD3273CF75F96BF04F6D53 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				74AD3C12101CD5FEEC61F808 /* StringConstants */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		74AD32CA778F659CEE5DCB48 /* Protocols */ = {
@@ -281,13 +282,6 @@
 				74AD3CE15E80381FCC4EFAC1 /* ModuleAssemblyBase */,
 			);
 			path = Assemblies;
-			sourceTree = "<group>";
-		};
-		74AD331AC23FFD9EDFD5F81E /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		74AD33B3E39B3F35C2E5B0DA /* Extensions */ = {
@@ -406,6 +400,13 @@
 			path = ConcreteServices;
 			sourceTree = "<group>";
 		};
+		74AD3942C5585120146F5B7C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		74AD39B37638B3A6CBA311BE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,12 +475,12 @@
 			children = (
 				74AD351731368D15AE23C473 /* ApplicationLayer */,
 				74AD374F6BF292759525B655 /* BusinessLogicLayer */,
-				74AD3273CF75F96BF04F6D53 /* Constants */,
 				74AD3C67FC6E6AB6BD3F7D61 /* CoreLayer */,
 				74AD33B3E39B3F35C2E5B0DA /* Extensions */,
-				74AD331AC23FFD9EDFD5F81E /* Helpers */,
 				74AD3C71B45F17478E5B222F /* Models */,
 				74AD3B0C2CFD30BFC34A64C9 /* PresentationLayer */,
+				74AD3DAEEA9326A9483C42A6 /* Constants */,
+				74AD3942C5585120146F5B7C /* Helpers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -498,15 +499,6 @@
 				74AD38C8394A38B3A524E741 /* VASAppDelegate.m */,
 			);
 			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		74AD3C12101CD5FEEC61F808 /* StringConstants */ = {
-			isa = PBXGroup;
-			children = (
-				74AD31D7A9ACA0F6BA7857B5 /* StringConstants.m */,
-				74AD38F25E411E7BEDDF2AEF /* StringConstants.h */,
-			);
-			path = StringConstants;
 			sourceTree = "<group>";
 		};
 		74AD3C67FC6E6AB6BD3F7D61 /* CoreLayer */ = {
@@ -584,6 +576,14 @@
 				74AD30C1F35B0A0E1D0F3A0F /* NetworkClientsFactory.h */,
 			);
 			path = NetworkClientsFactory;
+			sourceTree = "<group>";
+		};
+		74AD3DAEEA9326A9483C42A6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				74AD31835FE0AAD90762830F /* StringConstants */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		74AD3DE983741D13B749C8F9 /* NetworkClientsTests */ = {
@@ -978,7 +978,7 @@
 				DD3FA854EC6AF2DA39AC4600 /* FeedModuleRouter.m in Sources */,
 				74AD32E08A1E2B421C32D3E6 /* ItemInfoModel.m in Sources */,
 				74AD30C3D54053FAF8D1981E /* ModuleAssemblyBase.m in Sources */,
-				74AD3B640F50707C57990970 /* StringConstants.m in Sources */,
+				74AD3AFB38BC86D45B4EFA46 /* StringConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

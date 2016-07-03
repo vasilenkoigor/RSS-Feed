@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B7D10A4D1D226F8300AF06D6"
+               BuildableName = "RSS FeedTests.xctest"
+               BlueprintName = "RSS FeedTests"
+               ReferencedContainer = "container:RSS Feed.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B7D10A4D1D226F8300AF06D6"
+               BuildableName = "RSS FeedTests.xctest"
+               BlueprintName = "RSS FeedTests"
+               ReferencedContainer = "container:RSS Feed.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "FeedModuleInteractorTests">
+               </Test>
+               <Test
+                  Identifier = "FeedModulePresenterTests">
+               </Test>
+               <Test
+                  Identifier = "FeedModuleRouterTests">
+               </Test>
+               <Test
+                  Identifier = "FeedModuleViewControllerTests">
+               </Test>
+               <Test
+                  Identifier = "FeedServiceTests">
+               </Test>
+               <Test
+                  Identifier = "NetwokClientTest">
+               </Test>
+               <Test
+                  Identifier = "NetworkClientsAssemblyTest">
+               </Test>
+               <Test
+                  Identifier = "RSS_FeedTests">
+               </Test>
+               <Test
+                  Identifier = "ServiceComponentsAssemblyTest">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>
