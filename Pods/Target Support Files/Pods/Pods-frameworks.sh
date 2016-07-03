@@ -54,6 +54,7 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods/AFNetworking.framework'
   install_framework 'Pods/MWFeedParser.framework'
+  install_framework 'Pods/Nimbus.framework'
   install_framework 'Pods/ReactiveCocoa.framework'
   install_framework 'Pods/Result.framework'
   install_framework 'Pods/Typhoon.framework'
@@ -61,6 +62,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods/AFNetworking.framework'
   install_framework 'Pods/MWFeedParser.framework'
+  install_framework 'Pods/Nimbus.framework'
   install_framework 'Pods/ReactiveCocoa.framework'
   install_framework 'Pods/Result.framework'
   install_framework 'Pods/Typhoon.framework'

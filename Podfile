@@ -6,6 +6,7 @@ pod 'AFNetworking'
 pod 'ReactiveCocoa'
 pod 'Typhoon'
 pod 'MWFeedParser'
+pod 'Nimbus/Models', :git => 'https://github.com/rambler-ios/nimbus'
 
 target :’RSS FeedTests’, :exclusive => true do
     pod 'OCMock'
