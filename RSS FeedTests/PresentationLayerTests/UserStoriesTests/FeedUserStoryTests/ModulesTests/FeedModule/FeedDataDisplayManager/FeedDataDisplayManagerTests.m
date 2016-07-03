@@ -41,4 +41,16 @@
     XCTAssertNotNil(dataSource);
 }
 
+- (void)testThatFeedDataDisplayManagerReturnsTableViewDelegate
+{
+    // given
+
+    // when
+    id <UITableViewDelegate> delegate = [self.feedDataDisplayManager delegateForTableView:nil
+                                                                    baseTableViewDelegate:nil];
+
+    // then
+    XCTAssertNotNil(delegate);
+}
+
 @end
