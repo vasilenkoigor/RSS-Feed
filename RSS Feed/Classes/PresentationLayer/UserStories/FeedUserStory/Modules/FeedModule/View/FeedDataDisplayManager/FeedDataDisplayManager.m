@@ -5,10 +5,12 @@
 
 #import <Nimbus/NimbusModels.h>
 #import "FeedDataDisplayManager.h"
+#import "FeedCellObject.h"
 
 @interface FeedDataDisplayManager () <UITableViewDelegate>
 
 @property (strong, nonatomic) NITableViewModel *tableViewModel;
+@property (strong, nonatomic) NITableViewActions *tableViewActions;
 @property (strong, nonatomic) NSArray *cellObjects;
 
 @end
@@ -27,11 +29,23 @@
 
 - (id <UITableViewDelegate>)delegateForTableView:(UITableView *)tableView baseTableViewDelegate:(id <UITableViewDelegate>)baseTableViewDelegate
 {
-    NITableViewActions *tableViewActions = [[NITableViewActions alloc] initWithTarget:self];
-    return [tableViewActions forwardingTo:self];
+    if (!self.tableViewActions) {
+        [self configureTableViewActions];
+    }
+    return [self.tableViewActions forwardingTo:self];
 }
 
 #pragma mark - Private
+
+- (void)configureTableViewActions
+{
+    self.tableViewActions = [[NITableViewActions alloc] initWithTarget:self];
+
+    NIActionBlock feedItemActionBlock = ^BOOL(id object, UIViewController *controller, NSIndexPath *indexPath) {
+        return YES;
+    };
+    [self.tableViewActions attachToClass:[FeedCellObject class] tapBlock:feedItemActionBlock];
+}
 
 - (NITableViewModel *)configureTableViewModel
 {
