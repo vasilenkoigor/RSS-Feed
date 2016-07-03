@@ -28,7 +28,9 @@
 		74AD3AFB38BC86D45B4EFA46 /* StringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD35CD729D0D5C7807D4ED /* StringConstants.m */; };
 		74AD3C42770D18773D372293 /* NetworkClientsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3AC89578DB84A874C34C /* NetworkClientsAssembly.m */; };
 		74AD3C688D6D7C6C92BC055C /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F83A763F7B8E8BEB50B /* ServiceComponentsAssembly.m */; };
+		74AD3DAE32B665F203E8D30A /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AD3CE32DDB7ACDAB59B394 /* FeedCell.xib */; };
 		74AD3DAE71EA33FA63C5508A /* UITableView+VASCellNibRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3F7578FB6262547EFEE9 /* UITableView+VASCellNibRegistration.m */; };
+		74AD3E63E68136538DC43306 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3BDD68D4F95D951DEC28 /* FeedCell.m */; };
 		74AD3F39E31ADB1022D22EA8 /* CommonNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */; };
 		74AD3FB421BA00685D7CF8AE /* NetworkClientsAssemblyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */; };
 		800A7FA48D44EF96247A21FF /* FeedModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C982B8285E0A0CB5998A0CBE /* FeedModuleInteractor.m */; };
@@ -76,6 +78,7 @@
 		74AD3336EEBCAD2C185A9724 /* CommonNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNetworkClient.m; sourceTree = "<group>"; };
 		74AD33447B9208C7A514EBC6 /* VASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASAppDelegate.h; sourceTree = "<group>"; };
 		74AD35280028DD78B0E1D7BE /* ServiceComponentsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = ServiceComponentsURLs.plist; sourceTree = "<group>"; };
+		74AD356F2649FD6F190C598D /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
 		74AD357A46D4BA4A155CD313 /* ServiceComponentsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceComponentsAssembly.h; sourceTree = "<group>"; };
 		74AD35CD729D0D5C7807D4ED /* StringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringConstants.m; sourceTree = "<group>"; };
 		74AD35ECFC537C6F7D36B528 /* FeedServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedServiceTests.m; sourceTree = "<group>"; };
@@ -93,9 +96,11 @@
 		74AD3B39003E526DF6BB3215 /* NetworkClientsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClientsAssemblyTest.m; sourceTree = "<group>"; };
 		74AD3B71345BB4E265A840C6 /* ModuleAssemblyBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAssemblyBase.h; sourceTree = "<group>"; };
 		74AD3BCC5C4742600C50B2D7 /* UITableView+VASCellNibRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+VASCellNibRegistration.h"; sourceTree = "<group>"; };
+		74AD3BDD68D4F95D951DEC28 /* FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
 		74AD3C470E2BA34B9D466100 /* ServiceComponentsAssemblyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceComponentsAssemblyTest.m; sourceTree = "<group>"; };
 		74AD3C514FF169F66C50F651 /* NetwokClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetwokClientTest.m; sourceTree = "<group>"; };
 		74AD3CB81CC1B8C8E8097193 /* FeedCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCellObject.m; sourceTree = "<group>"; };
+		74AD3CE32DDB7ACDAB59B394 /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
 		74AD3CE43F46A53F01BCE51F /* NetworkClientsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClientsAssembly.h; sourceTree = "<group>"; };
 		74AD3D2497602CE5CE9D38D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "RSS Feed/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
 		74AD3D6C63BA6A7C2D5050F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -269,6 +274,16 @@
 				74AD38808EACE9C0CC4997D3 /* StringConstants.h */,
 			);
 			path = StringConstants;
+			sourceTree = "<group>";
+		};
+		74AD31B22ACE054642950931 /* FeedCell */ = {
+			isa = PBXGroup;
+			children = (
+				74AD3BDD68D4F95D951DEC28 /* FeedCell.m */,
+				74AD356F2649FD6F190C598D /* FeedCell.h */,
+				74AD3CE32DDB7ACDAB59B394 /* FeedCell.xib */,
+			);
+			path = FeedCell;
 			sourceTree = "<group>";
 		};
 		74AD320E8352B51323302113 /* BusinessLogicLayerTests */ = {
@@ -500,6 +515,7 @@
 		74AD3B316060AFAA59BA4DA2 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				74AD31B22ACE054642950931 /* FeedCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -867,6 +883,7 @@
 				74AD38A0E7DF033AC2618078 /* LaunchScreen.storyboard in Resources */,
 				74AD3098B8F9D8780DE08D9D /* Feed.storyboard in Resources */,
 				74AD38E211AA13C1C7B207CD /* ServiceComponentsURLs.plist in Resources */,
+				74AD3DAE32B665F203E8D30A /* FeedCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -993,6 +1010,7 @@
 				74AD30C3D54053FAF8D1981E /* ModuleAssemblyBase.m in Sources */,
 				74AD3AFB38BC86D45B4EFA46 /* StringConstants.m in Sources */,
 				74AD3882AFFF006E0AF21E3A /* FeedCellObject.m in Sources */,
+				74AD3E63E68136538DC43306 /* FeedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

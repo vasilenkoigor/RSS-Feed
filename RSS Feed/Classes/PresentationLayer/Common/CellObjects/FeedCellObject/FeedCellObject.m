@@ -4,6 +4,7 @@
 //
 
 #import "FeedCellObject.h"
+#import "FeedCell.h"
 
 @implementation FeedCellObject
 
@@ -20,13 +21,25 @@
     return self;
 }
 
-+ (instancetype)objectWithøTitle:(NSString *)title
-                         summary:(NSString *)summary
-                           image:(UIImage *)image
++ (instancetype)objectWithTitle:(NSString *)title
+                        summary:(NSString *)summary
+                          image:(UIImage *)image
 {
     return [[self alloc] initWithTitle:title
                                summary:summary
                                  image:image];
+}
+
+#pragma mark - NICellObject protocol implementation
+
+- (Class)cellClass
+{
+    return [FeedCell class];
+}
+
+- (UINib *)cellNib
+{
+    return [UINib nibWithNibName:NSStringFromClass([FeedCell class]) bundle:[NSBundle mainBundle]];
 }
 
 @end
