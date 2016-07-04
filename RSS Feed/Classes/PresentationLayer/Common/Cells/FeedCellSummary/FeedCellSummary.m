@@ -7,14 +7,13 @@
 #import "FeedCellSummaryObject.h"
 #import "UIImageView+AFNetworking.h"
 
-static NSInteger const FeedCellSummaryHeight = 150;
+static NSInteger const FeedCellSummaryHeight = 160;
 
 @interface FeedCellSummary ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *feedImageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
-
 
 @end
 
